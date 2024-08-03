@@ -1,0 +1,119 @@
+{
+	"name": "CheckMarking",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 810341343016802,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OBJ_CheckSquare"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJ_CheckSquare",
+					"sid": 952657077852758,
+					"parameters": {
+						"animation": "\"Done\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 217302493321871,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "OBJ_ItemMarker",
+							"sid": 720770241655545,
+							"parameters": {
+								"comparison": 0,
+								"x-co-ordinate": "OBJ_CheckSquare.X"
+							}
+						},
+						{
+							"id": "compare-y",
+							"objectClass": "OBJ_ItemMarker",
+							"sid": 519620571451904,
+							"parameters": {
+								"comparison": 0,
+								"y-co-ordinate": "OBJ_CheckSquare.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "OBJ_ItemMarker",
+							"sid": 338024491738404
+						}
+					],
+					"sid": 211054513180813
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 283444088066510,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked",
+						"object-clicked": "OBJ_CheckSquare"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJ_CheckSquare",
+					"sid": 953943614278691,
+					"parameters": {
+						"animation": "\"Available\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 288847861174388
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 965578977663626,
+					"parameters": {
+						"mouse-button": "middle",
+						"click-type": "clicked",
+						"object-clicked": "OBJ_CheckSquare"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "OpenMarker",
+					"sid": 878767174230639,
+					"parameters": [
+						"OBJ_CheckSquare.X",
+						"OBJ_CheckSquare.Y"
+					]
+				}
+			],
+			"sid": 261413616461896
+		}
+	],
+	"sid": 895938348934014
+}

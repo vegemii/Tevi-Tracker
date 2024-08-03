@@ -1,0 +1,373 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 39700,
+	"name": "teviTracker",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NodeWebkit",
+			"name": "NW.js",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "j19bz60a7tf",
+	"objectTypes": {
+		"items": [
+			"OBJ_CheckSquare",
+			"OBJ_ItemMarker",
+			"OBJ_ItemPicker",
+			"OBJ_ItemPickerStart"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Mouse",
+					"Keyboard"
+				],
+				"subfolders": [],
+				"name": "Inputs"
+			},
+			{
+				"items": [
+					"BG_Map0",
+					"BG_Map1",
+					"BG_Ruins",
+					"BG_Canyon",
+					"BG_AnaThema",
+					"BG_Blushwood",
+					"BG_BreathL",
+					"BG_BreathR",
+					"BG_Catacombs",
+					"BG_City",
+					"BG_Cloister",
+					"BG_Copperwood",
+					"BG_Desert",
+					"BG_DreamlessDepths",
+					"BG_Garden",
+					"BG_Gloamwood",
+					"BG_HQ",
+					"BG_Keep",
+					"BG_Magma",
+					"BG_Maze",
+					"BG_Mines",
+					"BG_Mirrors",
+					"BG_Morose",
+					"BG_Oath",
+					"BG_Park",
+					"BG_PlaguedForest",
+					"BG_Relicts",
+					"BG_Sea",
+					"BG_Tartarus",
+					"BG_Ulvosa",
+					"BG_Valhalla",
+					"BG_Valley",
+					"BG_Verdawn",
+					"BG_Snowveil"
+				],
+				"subfolders": [],
+				"name": "BGs"
+			},
+			{
+				"items": [
+					"Button_Oasis",
+					"Button_Base",
+					"Button_Ruins",
+					"Button_Canyon",
+					"Button_Desert",
+					"Button_Morose",
+					"Button_Mines",
+					"Button_Park",
+					"Button_Valley",
+					"Button_BreathL",
+					"Button_BreathR",
+					"Button_Oath",
+					"Button_Relicts",
+					"Button_Copperwood",
+					"Button_Verdawn",
+					"Button_Maze",
+					"Button_Magma",
+					"Button_Valhalla",
+					"Button_Garden",
+					"Button_Cloister",
+					"Button_Gloamwood",
+					"Button_Tartarus",
+					"Button_Catacombs",
+					"Button_Ulvosa",
+					"Button_PlaguedForest",
+					"Button_AnaThema",
+					"Button_Mirrors",
+					"Button_Blushwood",
+					"Button_Sea",
+					"Button_ForgottenCity",
+					"Button_Snowveil",
+					"Button_Keep",
+					"Button_DreamlessDepths",
+					"Button_HQ"
+				],
+				"subfolders": [],
+				"name": "Buttons"
+			},
+			{
+				"items": [
+					"NWjs"
+				],
+				"subfolders": [],
+				"name": "Sys"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"Buttons"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Oasis",
+			"Base",
+			"Ruins",
+			"Template",
+			"Canyon",
+			"Desert",
+			"Morose",
+			"Mines",
+			"Park",
+			"Valley",
+			"Breath (Left)",
+			"Breath (Right)",
+			"Oath",
+			"Relicts",
+			"Copperwood",
+			"Verdawn",
+			"Maze",
+			"Magma",
+			"Valhalla",
+			"Garden",
+			"Cloister",
+			"Gloamwood",
+			"Tartarus",
+			"Catacombs",
+			"Ulvosa",
+			"Plagued Forest",
+			"Ana Thema",
+			"Mirrors",
+			"Blushwood",
+			"Sea",
+			"Forgotten City",
+			"Snowveil",
+			"Keep",
+			"Dreamless Depths",
+			"HQ"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Global",
+			"CheckMarking",
+			"ChangingMap",
+			"ItemMarking"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 299274995292462,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 468646726404513,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 184793816482854,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 360178071805836,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 197410409363456,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 795121768209829,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 983180770894400,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "low",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": null
+}

@@ -1,0 +1,340 @@
+{
+	"name": "ItemMarking",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Item Marking",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "variable",
+					"name": "storedBoxX",
+					"type": "number",
+					"initialValue": "0",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 826395692639654
+				},
+				{
+					"eventType": "variable",
+					"name": "storedBoxY",
+					"type": "number",
+					"initialValue": "0",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 456781486593264
+				},
+				{
+					"eventType": "variable",
+					"name": "pickerOpen",
+					"type": "boolean",
+					"initialValue": "false",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 320534036300192
+				},
+				{
+					"functionName": "OpenMarker",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "boxX",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 810091892494022
+						},
+						{
+							"name": "boxY",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 508902470448459
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 425887790618865,
+							"parameters": {
+								"variable": "storedBoxX",
+								"value": "boxX"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 624126278145119,
+							"parameters": {
+								"variable": "storedBoxY",
+								"value": "boxY"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 901132963242934,
+							"parameters": {
+								"variable": "pickerOpen",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 215324585093913,
+					"children": [
+						{
+							"eventType": "variable",
+							"name": "ITEMHORILIMIT",
+							"type": "number",
+							"initialValue": "32",
+							"comment": "",
+							"isStatic": true,
+							"isConstant": true,
+							"sid": 790907652585233
+						},
+						{
+							"eventType": "variable",
+							"name": "ITEMSIZE",
+							"type": "number",
+							"initialValue": "36",
+							"comment": "",
+							"isStatic": true,
+							"isConstant": true,
+							"sid": 198467142846404
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "repeat",
+									"objectClass": "System",
+									"sid": 783076779597082,
+									"parameters": {
+										"count": "OBJ_ItemMarker.AnimationFrameCount"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 375707237074917,
+									"parameters": {
+										"object-to-create": "OBJ_ItemPicker",
+										"layer": "\"UI\"",
+										"x": "OBJ_ItemPickerStart.X + ((loopindex % ITEMHORILIMIT) * ITEMSIZE)",
+										"y": "OBJ_ItemPickerStart.Y + ((floor(loopindex / ITEMHORILIMIT)) * ITEMSIZE)",
+										"create-hierarchy": false,
+										"template-name": "\"\""
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemPicker",
+									"sid": 181432606299373,
+									"parameters": {
+										"frame-number": "loopindex"
+									}
+								}
+							],
+							"sid": 161700751253104
+						}
+					]
+				},
+				{
+					"functionName": "ClosePicker",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 563792439098269,
+							"parameters": {
+								"variable": "pickerOpen",
+								"value": "false"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "OBJ_ItemPicker",
+							"sid": 337983154931410
+						}
+					],
+					"sid": 380402350109579
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 654811041647617,
+							"parameters": {
+								"variable": "pickerOpen"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 764204944269721,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 190089516273955,
+									"parameters": {
+										"object": "OBJ_ItemPicker"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [],
+							"sid": 321010475323300,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-click",
+											"objectClass": "Mouse",
+											"sid": 218107510366826,
+											"parameters": {
+												"mouse-button": "left",
+												"click-type": "clicked"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "ClosePicker",
+											"sid": 817137641037346
+										}
+									],
+									"sid": 578136127792854
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 786244793194041,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "OBJ_ItemPicker"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 856490552399824,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "OBJ_ItemMarker",
+											"sid": 867328775728407,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "storedBoxX"
+											}
+										},
+										{
+											"id": "compare-y",
+											"objectClass": "OBJ_ItemMarker",
+											"sid": 794259496131467,
+											"parameters": {
+												"comparison": 0,
+												"y-co-ordinate": "storedBoxY"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation-frame",
+											"objectClass": "OBJ_ItemMarker",
+											"sid": 486247095196189,
+											"parameters": {
+												"frame-number": "OBJ_ItemPicker.AnimationFrame"
+											}
+										},
+										{
+											"callFunction": "ClosePicker",
+											"sid": 457325953294638
+										}
+									],
+									"sid": 314128867326625
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "else",
+											"objectClass": "System",
+											"sid": 439665692821288
+										}
+									],
+									"actions": [
+										{
+											"id": "create-object",
+											"objectClass": "System",
+											"sid": 245347098874299,
+											"parameters": {
+												"object-to-create": "OBJ_ItemMarker",
+												"layer": "\"Layer 0\"",
+												"x": "storedBoxX",
+												"y": "storedBoxY",
+												"create-hierarchy": false,
+												"template-name": "\"\""
+											}
+										},
+										{
+											"id": "set-animation-frame",
+											"objectClass": "OBJ_ItemMarker",
+											"sid": 645843653298864,
+											"parameters": {
+												"frame-number": "OBJ_ItemPicker.AnimationFrame"
+											}
+										},
+										{
+											"callFunction": "ClosePicker",
+											"sid": 175439275359291
+										}
+									],
+									"sid": 233375368131832
+								}
+							]
+						}
+					]
+				}
+			],
+			"sid": 669516753705794
+		}
+	],
+	"sid": 468818885064421
+}

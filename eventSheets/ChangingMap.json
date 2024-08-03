@@ -1,0 +1,27 @@
+{
+	"name": "ChangingMap",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Buttons",
+					"sid": 361876255815124
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 168176235062797,
+					"parameters": {
+						"layout": "Buttons.Text"
+					}
+				}
+			],
+			"sid": 559323835031697
+		}
+	],
+	"sid": 474045480016136
+}
