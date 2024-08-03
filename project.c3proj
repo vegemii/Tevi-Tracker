@@ -141,7 +141,10 @@
 					"Button_Snowveil",
 					"Button_Keep",
 					"Button_DreamlessDepths",
-					"Button_HQ"
+					"Button_HQ",
+					"Button_Save",
+					"Button_Load",
+					"Button_Reset"
 				],
 				"subfolders": [],
 				"name": "Buttons"
@@ -208,7 +211,8 @@
 			"Global",
 			"CheckMarking",
 			"ChangingMap",
-			"ItemMarking"
+			"ItemMarking",
+			"Saving"
 		],
 		"subfolders": []
 	},

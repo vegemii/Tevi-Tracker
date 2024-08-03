@@ -1,0 +1,80 @@
+{
+	"name": "Saving",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button_Save",
+					"sid": 837263354888352
+				}
+			],
+			"actions": [
+				{
+					"id": "save",
+					"objectClass": "System",
+					"sid": 487354706209710,
+					"parameters": {
+						"slot": "\"save\""
+					}
+				}
+			],
+			"sid": 771061817569935
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button_Load",
+					"sid": 190723510943056
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 871170828325646,
+					"parameters": {
+						"slot": "\"save\""
+					}
+				}
+			],
+			"sid": 416173453365156
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button_Reset",
+					"sid": 747901292868090
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-persisted-objects",
+					"objectClass": "System",
+					"sid": 141050290059309
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "OBJ_CheckSquare",
+					"sid": 193329114926978,
+					"parameters": {
+						"animation": "\"Available\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "OBJ_ItemMarker",
+					"sid": 526073844125384
+				}
+			],
+			"sid": 236208721073954
+		}
+	],
+	"sid": 276234867880579
+}
