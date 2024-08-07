@@ -50,7 +50,13 @@
 						"live-preview": false
 					},
 					"uid": 62,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -83,7 +89,13 @@
 						"live-preview": false
 					},
 					"uid": 63,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -145,7 +157,13 @@
 						"live-preview": false
 					},
 					"uid": 185,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -178,7 +196,13 @@
 						"live-preview": false
 					},
 					"uid": 186,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -211,7 +235,13 @@
 						"live-preview": false
 					},
 					"uid": 187,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -244,7 +274,13 @@
 						"live-preview": false
 					},
 					"uid": 200,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}

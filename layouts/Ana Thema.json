@@ -45,7 +45,13 @@
 						"live-preview": false
 					},
 					"uid": 381,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -78,7 +84,13 @@
 						"live-preview": false
 					},
 					"uid": 382,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -111,7 +123,13 @@
 						"live-preview": false
 					},
 					"uid": 383,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -144,7 +162,13 @@
 						"live-preview": false
 					},
 					"uid": 384,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -177,7 +201,13 @@
 						"live-preview": false
 					},
 					"uid": 385,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -245,7 +275,13 @@
 						"live-preview": false
 					},
 					"uid": 100,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}
@@ -278,7 +314,13 @@
 						"live-preview": false
 					},
 					"uid": 101,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": ""
+					},
 					"behaviors": {
 						"Persist": {
 							"properties": {}

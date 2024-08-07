@@ -3,7 +3,43 @@
 	"plugin-id": "Sprite",
 	"sid": 434879489817476,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Reqs1",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 242863281985216
+		},
+		{
+			"name": "Reqs2",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 131856930051491
+		},
+		{
+			"name": "Reqs3",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 847187315705099
+		},
+		{
+			"name": "Reqs4",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 401529223277847
+		},
+		{
+			"name": "Reqs5",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 981578985874601
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Persist",

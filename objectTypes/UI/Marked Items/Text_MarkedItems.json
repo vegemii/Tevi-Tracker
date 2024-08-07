@@ -1,0 +1,23 @@
+{
+	"name": "Text_MarkedItems",
+	"plugin-id": "Text",
+	"sid": 511652411371471,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 817786350926511
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 405998446353148
+		}
+	],
+	"effectTypes": []
+}

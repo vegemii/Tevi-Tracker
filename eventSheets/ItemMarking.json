@@ -39,6 +39,26 @@
 					"sid": 320534036300192
 				},
 				{
+					"eventType": "variable",
+					"name": "itemsMarked",
+					"type": "number",
+					"initialValue": "0",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 897069467676172
+				},
+				{
+					"eventType": "variable",
+					"name": "trueItemsMarked",
+					"type": "number",
+					"initialValue": "0",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 364929680284922
+				},
+				{
 					"functionName": "OpenMarker",
 					"functionDescription": "",
 					"functionCategory": "",
@@ -182,6 +202,170 @@
 					"sid": 380402350109579
 				},
 				{
+					"functionName": "AddItemToMarked",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "frame",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 907156083622153
+						},
+						{
+							"name": "markedUID",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 312578958461624
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 905625962554821,
+							"disabled": true,
+							"parameters": {
+								"object-to-create": "Text_MarkedItems",
+								"layer": "\"UI\"",
+								"x": "OBJ_MarkedItemsStart.X + 32",
+								"y": "OBJ_MarkedItemsStart.Y",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Text_MarkedItems",
+							"sid": 740937451585497,
+							"disabled": true,
+							"parameters": {
+								"text": "LayoutName"
+							}
+						}
+					],
+					"sid": 396794169750809,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 151822382280995,
+									"parameters": {
+										"instance-variable": "ID",
+										"comparison": 0,
+										"value": "itemsMarked"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 324531589170685,
+									"parameters": {
+										"instance-variable": "trueID",
+										"value": "trueItemsMarked"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 605892436788768,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 548493056974423,
+									"parameters": {
+										"instance-variable": "Layout",
+										"value": "LayoutName"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 105089661461543,
+									"parameters": {
+										"frame-number": "frame"
+									}
+								},
+								{
+									"id": "push",
+									"objectClass": "ARR_MarkedItems",
+									"sid": 412266143666002,
+									"parameters": {
+										"where": "back",
+										"value": "str(frame) & \",\" & LayoutName & \",\" & str(markedUID) & \",\" & str(trueItemsMarked)",
+										"axis": "x"
+									}
+								},
+								{
+									"id": "set-position",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 941845726440251,
+									"parameters": {
+										"x": "OBJ_MarkedItemsStart.X",
+										"y": "OBJ_MarkedItemsStart.Y + itemsMarked * 28"
+									}
+								},
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 243058601606585,
+									"parameters": {
+										"object-to-create": "Text_MarkedItems",
+										"layer": "\"UI\"",
+										"x": "OBJ_MarkedItemsStart.X + 28",
+										"y": "OBJ_MarkedItemsStart.Y - 10 + (itemsMarked * 28)",
+										"create-hierarchy": false,
+										"template-name": "\"\""
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Text_MarkedItems",
+									"sid": 831070368563514,
+									"parameters": {
+										"text": "LayoutName"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 576160073863025,
+									"parameters": {
+										"variable": "itemsMarked",
+										"value": "1"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 288688430868753,
+									"parameters": {
+										"variable": "trueItemsMarked",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 922620611900081
+						}
+					]
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
@@ -288,7 +472,35 @@
 											"sid": 457325953294638
 										}
 									],
-									"sid": 314128867326625
+									"sid": 314128867326625,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_MarkedItem",
+													"sid": 284986440226399,
+													"parameters": {
+														"instance-variable": "markedUID",
+														"comparison": 0,
+														"value": "OBJ_ItemMarker.UID"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-animation-frame",
+													"objectClass": "OBJ_MarkedItem",
+													"sid": 636738999272602,
+													"parameters": {
+														"frame-number": "OBJ_ItemPicker.AnimationFrame"
+													}
+												}
+											],
+											"sid": 952000559780514
+										}
+									]
 								},
 								{
 									"eventType": "block",
@@ -314,12 +526,29 @@
 											}
 										},
 										{
+											"id": "set-instvar-value",
+											"objectClass": "OBJ_ItemMarker",
+											"sid": 860719094319262,
+											"parameters": {
+												"instance-variable": "markerID",
+												"value": "trueItemsMarked"
+											}
+										},
+										{
 											"id": "set-animation-frame",
 											"objectClass": "OBJ_ItemMarker",
 											"sid": 645843653298864,
 											"parameters": {
 												"frame-number": "OBJ_ItemPicker.AnimationFrame"
 											}
+										},
+										{
+											"callFunction": "AddItemToMarked",
+											"sid": 290133407823343,
+											"parameters": [
+												"OBJ_ItemPicker.AnimationFrame",
+												"OBJ_ItemMarker.UID"
+											]
 										},
 										{
 											"callFunction": "ClosePicker",
@@ -331,6 +560,263 @@
 							]
 						}
 					]
+				},
+				{
+					"functionName": "RemoveMarkedItem",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "ID",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 166818144459462
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [],
+					"sid": 488279928854772,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_MarkedItem",
+									"sid": 765557718520753,
+									"parameters": {
+										"instance-variable": "trueID",
+										"comparison": 0,
+										"value": "ID"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "delete",
+									"objectClass": "ARR_MarkedItems",
+									"sid": 586183976954878,
+									"parameters": {
+										"index": "OBJ_MarkedItem.ID",
+										"axis": "x"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Text_MarkedItems",
+									"sid": 267185372755259
+								},
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 450761839915598,
+									"parameters": {
+										"variable": "itemsMarked",
+										"value": "1"
+									}
+								},
+								{
+									"callFunction": "SetMarkedItemPos",
+									"sid": 943562025370352
+								}
+							],
+							"sid": 794738286687115
+						}
+					]
+				},
+				{
+					"functionName": "SetMarkedItemPos",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "OBJ_MarkedItem",
+							"sid": 658379493459990,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 249502608211771,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "repeat",
+									"objectClass": "System",
+									"sid": 339493718091859,
+									"parameters": {
+										"count": "itemsMarked"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 376096675405289,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 519980543555623,
+											"parameters": {
+												"instance-variable": "ID",
+												"comparison": 0,
+												"value": "loopindex"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 457428381774555,
+											"parameters": {
+												"visibility": "visible"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 786454463535966,
+											"parameters": {
+												"x": "OBJ_MarkedItemsStart.X",
+												"y": "OBJ_MarkedItemsStart.Y +(loopindex * 28)"
+											}
+										},
+										{
+											"id": "set-animation-frame",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 791239544451890,
+											"parameters": {
+												"frame-number": "int(tokenat(ARR_MarkedItems.At(loopindex), 0, \",\"))"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 376899302054508,
+											"parameters": {
+												"instance-variable": "Layout",
+												"value": "tokenat(ARR_MarkedItems.At(loopindex), 1, \",\")"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 785589177764577,
+											"parameters": {
+												"instance-variable": "markedUID",
+												"value": "int(tokenat(ARR_MarkedItems.At(loopindex), 2, \",\"))"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "OBJ_MarkedItem",
+											"sid": 135638249499847,
+											"parameters": {
+												"instance-variable": "trueID",
+												"value": "int(tokenat(ARR_MarkedItems.At(loopindex), 3, \",\"))"
+											}
+										},
+										{
+											"id": "create-object",
+											"objectClass": "System",
+											"sid": 150040748999699,
+											"parameters": {
+												"object-to-create": "Text_MarkedItems",
+												"layer": "\"UI\"",
+												"x": "OBJ_MarkedItemsStart.X + 28",
+												"y": "OBJ_MarkedItemsStart.Y - 10 + (loopindex * 28)",
+												"create-hierarchy": false,
+												"template-name": "\"\""
+											}
+										},
+										{
+											"id": "set-text",
+											"objectClass": "Text_MarkedItems",
+											"sid": 189817469970885,
+											"parameters": {
+												"text": "tokenat(ARR_MarkedItems.At(loopindex), 1, \",\")"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Text_MarkedItems",
+											"sid": 266182926390523,
+											"parameters": {
+												"instance-variable": "ID",
+												"value": "int(tokenat(ARR_MarkedItems.At(loopindex), 3, \",\"))"
+											}
+										}
+									],
+									"sid": 497513189909713
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 492190633860420
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Text_MarkedItems",
+							"sid": 864361863364997
+						},
+						{
+							"callFunction": "SetMarkedItemPos",
+							"sid": 370134670022303
+						}
+					],
+					"sid": 498814574788136
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 535100725594586,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "OBJ_MarkedItem"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 299160545131299,
+							"parameters": {
+								"layout": "OBJ_MarkedItem.Layout"
+							}
+						}
+					],
+					"sid": 710103551830182
 				}
 			],
 			"sid": 669516753705794

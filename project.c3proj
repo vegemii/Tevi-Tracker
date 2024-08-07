@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
@@ -42,6 +49,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Persist",
 			"name": "Persist",
@@ -51,12 +65,7 @@
 	],
 	"uniqueId": "j19bz60a7tf",
 	"objectTypes": {
-		"items": [
-			"OBJ_CheckSquare",
-			"OBJ_ItemMarker",
-			"OBJ_ItemPicker",
-			"OBJ_ItemPickerStart"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
@@ -155,6 +164,33 @@
 				],
 				"subfolders": [],
 				"name": "Sys"
+			},
+			{
+				"items": [
+					"OBJ_CheckSquare"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"OBJ_ItemMarker",
+							"OBJ_ItemPicker",
+							"OBJ_ItemPickerStart"
+						],
+						"subfolders": [],
+						"name": "Item Markers"
+					},
+					{
+						"items": [
+							"OBJ_MarkedItemsStart",
+							"Text_MarkedItems",
+							"ARR_MarkedItems",
+							"OBJ_MarkedItem"
+						],
+						"subfolders": [],
+						"name": "Marked Items"
+					}
+				],
+				"name": "UI"
 			}
 		]
 	},
@@ -299,7 +335,16 @@
 			"subfolders": []
 		},
 		"general": {
-			"items": [],
+			"items": [
+				{
+					"name": "ItemList.json",
+					"type": "application/json",
+					"sid": 446258036500796,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		}
 	},
