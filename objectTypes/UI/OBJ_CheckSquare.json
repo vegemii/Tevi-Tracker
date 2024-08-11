@@ -38,6 +38,300 @@
 			"desc": "",
 			"show": true,
 			"sid": 981578985874601
+		},
+		{
+			"name": "ITEM_HIJUMP",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 659515511402831
+		},
+		{
+			"name": "ITEM_JETPACK1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 698195651193879
+		},
+		{
+			"name": "ITEM_JETPACK2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 261959734032295
+		},
+		{
+			"name": "ITEM_JETPACK3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 469391396397160
+		},
+		{
+			"name": "ITEM_DOUBLEJUMP",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 780455949871220
+		},
+		{
+			"name": "ITEM_SLIDE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 925564540362174
+		},
+		{
+			"name": "ITEM_KNIFE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 336384110274890
+		},
+		{
+			"name": "ITEM_LINEBOMB",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 987867849717831
+		},
+		{
+			"name": "ITEM_AREABOMB",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 426803225488792
+		},
+		{
+			"name": "ITEM_WATERMOVEMENT",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 598930385167457
+		},
+		{
+			"name": "ITEM_DASH",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 263892337011373
+		},
+		{
+			"name": "ITEM_BOMBEXTEND1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 900176562628641
+		},
+		{
+			"name": "ITEM_BOMBEXTEND2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 588608651973479
+		},
+		{
+			"name": "ITEM_BOMBEXTEND3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 656191701214074
+		},
+		{
+			"name": "ITEM_ORBC1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 415063199604837
+		},
+		{
+			"name": "ITEM_ORBC2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 165901794524918
+		},
+		{
+			"name": "ITEM_ORBC3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 391611744597912
+		},
+		{
+			"name": "ITEM_ORBS1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 345932358636453
+		},
+		{
+			"name": "ITEM_ORBS2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 235615199267970
+		},
+		{
+			"name": "ITEM_ORBS3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 730869804741624
+		},
+		{
+			"name": "ITEM_ORB1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 188666928570416
+		},
+		{
+			"name": "ITEM_ORB2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 191645206398695
+		},
+		{
+			"name": "ITEM_ORB3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 388663206789728
+		},
+		{
+			"name": "ITEM_AIRSLIDE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 497113699770522
+		},
+		{
+			"name": "failedReq1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 856842912064484
+		},
+		{
+			"name": "failedReq2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 590330085058770
+		},
+		{
+			"name": "failedReq3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 263857646540421
+		},
+		{
+			"name": "failedReq4",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 445491270269076
+		},
+		{
+			"name": "failedReq5",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 646929138328624
+		},
+		{
+			"name": "region",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 653492409411332
+		},
+		{
+			"name": "failedRegionReqs",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 947634328790026
+		},
+		{
+			"name": "checked",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 313018402512197
+		},
+		{
+			"name": "Reqs6",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 711689212309258
+		},
+		{
+			"name": "Reqs7",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 810996622648825
+		},
+		{
+			"name": "Reqs8",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 431366269728026
+		},
+		{
+			"name": "Reqs9",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 123634791184412
+		},
+		{
+			"name": "Reqs10",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 335828635812990
+		},
+		{
+			"name": "failedReq6",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 406886026406514
+		},
+		{
+			"name": "failedReq7",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 444328130808438
+		},
+		{
+			"name": "failedReq8",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 871785821956402
+		},
+		{
+			"name": "failedReq9",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 516004917268775
+		},
+		{
+			"name": "failedReq10",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 879599764349326
 		}
 	],
 	"behaviorTypes": [

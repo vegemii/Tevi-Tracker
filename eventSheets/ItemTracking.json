@@ -1,0 +1,1907 @@
+{
+	"name": "ItemTracking",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Item Tracker",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 793951749937715,
+							"parameters": {
+								"variable": "ITEM_AIRSLIDE",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 840900734304768,
+							"parameters": {
+								"variable": "ITEM_AREABOMB",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 289770721820740,
+							"parameters": {
+								"variable": "ITEM_BOMBEXTEND1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 209202500812675,
+							"parameters": {
+								"variable": "ITEM_BOMBEXTEND2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 847820963794639,
+							"parameters": {
+								"variable": "ITEM_BOMBEXTEND3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 707439369608419,
+							"parameters": {
+								"variable": "ITEM_DASH",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 115527904195596,
+							"parameters": {
+								"variable": "ITEM_DOUBLEJUMP",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 367010461402180,
+							"parameters": {
+								"variable": "ITEM_FUEL",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 516622712421140,
+							"parameters": {
+								"variable": "ITEM_HIJUMP",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 594891752518956,
+							"parameters": {
+								"variable": "ITEM_JETPACK1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 660728961480502,
+							"parameters": {
+								"variable": "ITEM_JETPACK2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 521128290232521,
+							"parameters": {
+								"variable": "ITEM_JETPACK3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 649454063265250,
+							"parameters": {
+								"variable": "ITEM_KNIFE",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 708270192620876,
+							"parameters": {
+								"variable": "ITEM_LINEBOMB",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 736117364209187,
+							"parameters": {
+								"variable": "ITEM_ORB1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 855371092558452,
+							"parameters": {
+								"variable": "ITEM_ORB2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 848838827510543,
+							"parameters": {
+								"variable": "ITEM_ORB3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 833009466098496,
+							"parameters": {
+								"variable": "ITEM_ORBC1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 318529545979984,
+							"parameters": {
+								"variable": "ITEM_ORBC2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 965442159310781,
+							"parameters": {
+								"variable": "ITEM_ORBC3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 251100366971204,
+							"parameters": {
+								"variable": "ITEM_ORBS1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 691848333745551,
+							"parameters": {
+								"variable": "ITEM_ORBS2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 272986179645551,
+							"parameters": {
+								"variable": "ITEM_ORBS3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 574330763110624,
+							"parameters": {
+								"variable": "ITEM_SLIDE",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 714258476779651,
+							"parameters": {
+								"variable": "ITEM_WALLJUMP1",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 677778121375486,
+							"parameters": {
+								"variable": "ITEM_WALLJUMP2",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 888741965500513,
+							"parameters": {
+								"variable": "ITEM_WALLJUMP3",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 329379776958334,
+							"parameters": {
+								"variable": "ITEM_WATERMOVEMENT",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 569028353571336,
+							"parameters": {
+								"variable": "ITEM_VORTEX",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 888481980324581
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 708557525883846,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 968172538743983,
+							"parameters": {
+								"mode": "enable",
+								"effect": "\"Grayscale\""
+							}
+						}
+					],
+					"sid": 267417078420301
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 534279442292370,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"comparison": 4,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 380401974062493,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Grayscale\""
+							}
+						}
+					],
+					"sid": 101379456956818
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 454749576537952,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "OBJ_ItemTracker"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 110571372475052,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 367870160692192
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 432501602568162,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked",
+								"object-clicked": "OBJ_ItemTracker"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 865641706371200,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 426034630957419
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 713842576784802,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"comparison": 4,
+								"value": "Self.checkMax"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 761804304405956,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"value": "Self.checkMax"
+							}
+						}
+					],
+					"sid": 295561387648940
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 871332664953648,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"comparison": 2,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 687532247679030,
+							"parameters": {
+								"instance-variable": "checkCount",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 505683665056790
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 292533268901433,
+							"parameters": {
+								"instance-variable": "ITEM_AIRSLIDE"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 363880135938906,
+							"parameters": {
+								"frame-number": "54"
+							}
+						}
+					],
+					"sid": 152516620292235,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 697802401205972,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 505447274566129,
+									"parameters": {
+										"variable": "ITEM_AIRSLIDE",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 795629424396534
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 455472750738743,
+							"parameters": {
+								"instance-variable": "ITEM_AREABOMB"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 506847751034415,
+							"parameters": {
+								"frame-number": "9"
+							}
+						}
+					],
+					"sid": 776405338502448,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 474717206405738,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 773855324906618,
+									"parameters": {
+										"variable": "ITEM_AREABOMB",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 438725859721440
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 768684622045094,
+							"parameters": {
+								"instance-variable": "ITEM_BOMBEXTEND1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 361342774737107,
+							"parameters": {
+								"frame-number": "7"
+							}
+						}
+					],
+					"sid": 403621745645758,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 245778983094625,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 445898213312224,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND1",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 420403788052636
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 171729124450497,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 709186548451433,
+									"parameters": {
+										"frame-number": "67"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 586866714760950,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 357828513284810,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND2",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 432844902442957
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 611445045793801,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 5,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 393407003410983,
+									"parameters": {
+										"frame-number": "68"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 385105404324039,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 759386396250674,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND2",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 696127791823915,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND3",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 842047306943622
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 587799984343656,
+							"parameters": {
+								"instance-variable": "ITEM_DASH"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 439106956793470,
+							"parameters": {
+								"frame-number": "12"
+							}
+						}
+					],
+					"sid": 290751765649260,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 788840962762351,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 903636461963110,
+									"parameters": {
+										"variable": "ITEM_DASH",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 442280344729432
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 148780692709789,
+							"parameters": {
+								"instance-variable": "ITEM_DOUBLEJUMP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 679023150264224,
+							"parameters": {
+								"frame-number": "24"
+							}
+						}
+					],
+					"sid": 923478168588797,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 869284056754378,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 898637064830107,
+									"parameters": {
+										"variable": "ITEM_DOUBLEJUMP",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 424907554029705
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 626173355762368,
+							"parameters": {
+								"instance-variable": "ITEM_HIJUMP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 840800792054913,
+							"parameters": {
+								"frame-number": "25"
+							}
+						}
+					],
+					"sid": 784396198126902,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 681744933920855,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 836355866384971,
+									"parameters": {
+										"variable": "ITEM_HIJUMP",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 240689995457614
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 134904492858215,
+							"parameters": {
+								"instance-variable": "ITEM_JETPACK1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 439071328887397,
+							"parameters": {
+								"frame-number": "23"
+							}
+						}
+					],
+					"sid": 157361361962250,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 430641261596647,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 818266832943906,
+									"parameters": {
+										"variable": "ITEM_JETPACK1",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 854698822572648
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 206423134347347,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 404390327751630,
+									"parameters": {
+										"frame-number": "69"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 439766854673754,
+									"parameters": {
+										"variable": "ITEM_JETPACK1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 982383913977138,
+									"parameters": {
+										"variable": "ITEM_JETPACK2",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 773541045610836
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 514449655731108,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 478139578673114,
+									"parameters": {
+										"frame-number": "70"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 815227427880696,
+									"parameters": {
+										"variable": "ITEM_JETPACK1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 347864242740456,
+									"parameters": {
+										"variable": "ITEM_JETPACK2",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 877977813564024,
+									"parameters": {
+										"variable": "ITEM_JETPACK3",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 152410772419342
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 963643996949902,
+							"parameters": {
+								"instance-variable": "ITEM_KNIFE"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 958181113396808,
+							"parameters": {
+								"frame-number": "28"
+							}
+						}
+					],
+					"sid": 907670402501334,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 763516682086730,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 908512721104174,
+									"parameters": {
+										"variable": "ITEM_KNIFE",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 250886517129362
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 630565436720299,
+							"parameters": {
+								"instance-variable": "ITEM_LINEBOMB"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 843428208716195,
+							"parameters": {
+								"frame-number": "6"
+							}
+						}
+					],
+					"sid": 687826524380320,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 452114016561670,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 811156642199126,
+									"parameters": {
+										"variable": "ITEM_LINEBOMB",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 141032868046991
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 711485159422149,
+							"parameters": {
+								"instance-variable": "ITEM_ORB1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 912132672201410,
+							"parameters": {
+								"frame-number": "51"
+							}
+						}
+					],
+					"sid": 819015591233361,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 948432064422387,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 449631353157585,
+									"parameters": {
+										"variable": "ITEM_ORB1",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 397049673402851
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 905032151983846,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 855662332589230,
+									"parameters": {
+										"frame-number": "64"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 203843252882408,
+									"parameters": {
+										"variable": "ITEM_ORB1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 930744802948719,
+									"parameters": {
+										"variable": "ITEM_ORB2",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 190530425970617
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 977710772924566,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 5,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 946174685133276,
+									"parameters": {
+										"frame-number": "52"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 599876503786037,
+									"parameters": {
+										"variable": "ITEM_ORB1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 479429062284146,
+									"parameters": {
+										"variable": "ITEM_ORB2",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 515021501474116,
+									"parameters": {
+										"variable": "ITEM_ORB3",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 152574959705714
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 824125230901325,
+							"parameters": {
+								"instance-variable": "ITEM_ORBC1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 303581944601174,
+							"parameters": {
+								"frame-number": "34"
+							}
+						}
+					],
+					"sid": 218319915509448
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 167891553589755,
+							"parameters": {
+								"instance-variable": "ITEM_ORBC2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 826017238571576,
+							"parameters": {
+								"frame-number": "35"
+							}
+						}
+					],
+					"sid": 115254885997442
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 418105262010818,
+							"parameters": {
+								"instance-variable": "ITEM_ORBC3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 754004969412779,
+							"parameters": {
+								"frame-number": "36"
+							}
+						}
+					],
+					"sid": 424617526771262
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 871404431441574,
+							"parameters": {
+								"instance-variable": "ITEM_ORBS1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 869304568320880,
+							"parameters": {
+								"frame-number": "38"
+							}
+						}
+					],
+					"sid": 134023435844855
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 997555645727008,
+							"parameters": {
+								"instance-variable": "ITEM_ORBS2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 976208173655127,
+							"parameters": {
+								"frame-number": "39"
+							}
+						}
+					],
+					"sid": 357002740814853
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 432420771766188,
+							"parameters": {
+								"instance-variable": "ITEM_ORBS3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 553269915745912,
+							"parameters": {
+								"frame-number": "40"
+							}
+						}
+					],
+					"sid": 822756292106538
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 736737008950945,
+							"parameters": {
+								"instance-variable": "ITEM_SLIDE"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 826497279420226,
+							"parameters": {
+								"frame-number": "53"
+							}
+						}
+					],
+					"sid": 990316796426107,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 234511286030754,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 903778055461675,
+									"parameters": {
+										"variable": "ITEM_SLIDE",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 141951210238852
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 621149743238732,
+							"parameters": {
+								"instance-variable": "ITEM_WATERMOVEMENT"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 615421021832225,
+							"parameters": {
+								"frame-number": "63"
+							}
+						}
+					],
+					"sid": 422752131362031,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 260483559693479,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 623814240845304,
+									"parameters": {
+										"variable": "ITEM_WATERMOVEMENT",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 510963490502014
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 723875659062794,
+							"parameters": {
+								"instance-variable": "ITEM_VORTEX"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 898395504699050,
+							"parameters": {
+								"frame-number": "61"
+							}
+						}
+					],
+					"sid": 145864346148230,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 480175119236098,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 979795897824239,
+									"parameters": {
+										"variable": "ITEM_VORTEX",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 185049100592768
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 417535249737874,
+							"parameters": {
+								"instance-variable": "ITEM_FUEL"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 338065182185898,
+							"parameters": {
+								"frame-number": "8"
+							}
+						}
+					],
+					"sid": 904536076914175,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 633537031855117,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 705061354753113,
+									"parameters": {
+										"variable": "ITEM_FUEL",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 567521734772397
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 407089155976918,
+							"parameters": {
+								"instance-variable": "ITEM_SPEED"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 570864422110278,
+							"parameters": {
+								"frame-number": "56"
+							}
+						}
+					],
+					"sid": 225892283543568,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 224287959506708,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 436709241602698,
+									"parameters": {
+										"variable": "ITEM_SPEED1",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 379754174737431
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 763652528547679,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 403498736327513,
+									"parameters": {
+										"variable": "ITEM_SPEED1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 630325857442181,
+									"parameters": {
+										"variable": "ITEM_SPEED2",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 478810109957913
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 871318262015735,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 186575701125108,
+									"parameters": {
+										"variable": "ITEM_SPEED1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 694312285496778,
+									"parameters": {
+										"variable": "ITEM_SPEED2",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 966627967658212,
+									"parameters": {
+										"variable": "ITEM_SPEED3",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 948883127127601
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 364005280304691,
+							"parameters": {
+								"instance-variable": "ITEM_WALLJUMP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "OBJ_ItemTracker",
+							"sid": 233371208487146,
+							"parameters": {
+								"frame-number": "26"
+							}
+						}
+					],
+					"sid": 284447502925711,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 946313426490060,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 760792819969593,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP1",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 463416157439492
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 547635890092239,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 170419671122944,
+									"parameters": {
+										"frame-number": "65"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 306191855970769,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 549926890827965,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP2",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 937829883960175
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 581763248551254,
+									"parameters": {
+										"instance-variable": "checkCount",
+										"comparison": 5,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation-frame",
+									"objectClass": "OBJ_ItemTracker",
+									"sid": 311778927708654,
+									"parameters": {
+										"frame-number": "66"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 315525137815026,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP1",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 506754916771585,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP2",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 176437553907118,
+									"parameters": {
+										"variable": "ITEM_WALLJUMP3",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 235055506196280
+						}
+					]
+				}
+			],
+			"sid": 392739607619664
+		}
+	],
+	"sid": 379356299628036
+}

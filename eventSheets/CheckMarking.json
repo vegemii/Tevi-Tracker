@@ -17,12 +17,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
+					"id": "set-boolean-instvar",
 					"objectClass": "OBJ_CheckSquare",
-					"sid": 952657077852758,
+					"sid": 929791765719350,
 					"parameters": {
-						"animation": "\"Done\"",
-						"from": "beginning"
+						"instance-variable": "checked",
+						"value": "true"
 					}
 				}
 			],
@@ -84,12 +84,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
+					"id": "set-boolean-instvar",
 					"objectClass": "OBJ_CheckSquare",
-					"sid": 953943614278691,
+					"sid": 252319221937476,
 					"parameters": {
-						"animation": "\"Available\"",
-						"from": "beginning"
+						"instance-variable": "checked",
+						"value": "false"
 					}
 				}
 			],

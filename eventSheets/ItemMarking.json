@@ -9,6 +9,6500 @@
 			"isActiveOnStart": true,
 			"children": [
 				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Logic Checking",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Region Checking",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for-each",
+											"objectClass": "System",
+											"sid": 595331063935889,
+											"parameters": {
+												"object": "OBJ_CheckSquare"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 680443830636483,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 377239844848461,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"OASIS\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 384100255417219,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 386106593902877
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 828444605411538,
+															"parameters": {
+																"variable": "ITEM_ORB2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 872268783128906,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 847954074433686
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 961634692008688,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 623138032971988,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 601806558838109
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 315940183936366,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 398783892023009,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 884562218021137
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 290674292813405,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 144610172177016,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 107282970480332
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 325003740839896,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 767702677037825,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 993497573379551
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 973087134370632,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 167322671670201,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 468008424381523
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 506076260826999,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BASE_ENTRANCE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 719762299505147,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 495658938959156
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 755388597949113,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BASE_UPPER\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 158951251286341,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 855485629753573
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 696736881551546,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 604197477730014,
+															"parameters": {
+																"variable": "ITEM_WALLJUMP1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 349053857659256,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 877001802820649
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 800978082415109,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 215320341885016,
+															"parameters": {
+																"variable": "ITEM_WALLJUMP1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 117931820836319,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 225021767330472
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 911552168372856,
+															"parameters": {
+																"variable": "ITEM_SLIDE"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 954969298320109,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 218720883325871,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 359958827826137
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 525718265471064,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 918852500916491,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 875644354471393
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 897787581876412,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 171546364627298,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 596846226407627
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 530252469970311,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"CANYON\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 729256284854466,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 126532756035712
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 637980774944105,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BASE_MAIN\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 671640019558392,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 596413916396191,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 334648522321892
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 976723019706060,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 400119262505022,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 943430519963327
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 802989818707983,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 141493762758961,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 886325903620636
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 541145879510606,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 162230338774382,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 371211590126738
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 216466687936419,
+															"parameters": {
+																"variable": "ITEM_HIJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 603806931229500,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 725925598544238
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 673155972943878,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 105962716673255,
+															"parameters": {
+																"variable": "ITEM_AREABOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 142133959603412,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 109095067452995
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 316172719203206,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 835429449064244,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 286109642818557
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 452266187855701,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 412336159467891,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 370966677779096
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 615547390848701,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"RUINS_ENTRANCE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 151078721229603,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 763309591405004
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 527330504250614,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"RUINS_INNER\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 562736260409334,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 487338960297655
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 419350649102784,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 817473125062308,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 116181399855294
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 171006104614670,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 435028819535818,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 596212167257979
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 371082383293917,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 408125473810889,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 164056286906110
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 500477936764694,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"DESERT\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 960443774223886,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 915051602681948
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 923603118261558,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MOROSE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 138475781778716,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 974720328996740
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 455677962679531,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MINES\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 517581878176182,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 591798742784386
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 697048074850206,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 812637418802125,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 849909600926084
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 718541929947293,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 995330720068493,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 393287276349396
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 352639711848066,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 212865171154758,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 148611540975793
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 644668688512594,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MINES_BOT\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 883760620266147,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 258527739403543
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 621602925110015,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 832301754295740,
+															"parameters": {
+																"variable": "ITEM_FUEL"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 493360625628751,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 168257886509675
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 494517563451000,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 751987241512361,
+															"parameters": {
+																"variable": "ITEM_KNIFE"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 607603600903256,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 816318313422783
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 359516844745841,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 834191512494568,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 701693570994476
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 156684053263735,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 339176578680774,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 633346449129750
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 381406490036563,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MAGMA\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 700062168354024,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 732424032125595
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 409618532274154,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 373123225260131,
+															"parameters": {
+																"variable": "ITEM_FUEL"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 133673171901057,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 637600224166346
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 212449619947352,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 643593031587458,
+															"parameters": {
+																"variable": "ITEM_KNIFE"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 750149592840034,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 899553613087647
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 518586065297076,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 324740863613946,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 670881808037560
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 576559069980722,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 725900770716462,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 233819522964044
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 575339235571079,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"PARK\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 161927951274113,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 845135935365995
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 288705096036066,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"FOREST\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 737744883172701,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 769996162660455
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 451623499753470,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"COPPER\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 943723850341682,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 420239688925600
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 431474541977107,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"RELICTS\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 332016950325593,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 553003767677535
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 479855275743889,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MAZE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 603899952552375,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 876666513415418
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 247743909389123,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BEACH\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 960632798685728,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 740735336836452,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 559516086308006
+												},
+												{
+													"eventType": "variable",
+													"name": "OR",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 659857691753758
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 403151458748285,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 706271596811502,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 515365062221488,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 333752178199406,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 223997953292625,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 780355926105008,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 998563917741210,
+													"isOrBlock": true
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 121846933587282,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 399790954351117,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 514178937181117
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 794873257437792,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 354978157466423,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 687456508453645
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 269882968932429,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MAZE_BOSS\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 668107947719003,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 494024847132566
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 273531145569584,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 583712256450191,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 731715407599870
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 807154636553802,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 589354127663910,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 495107459751093
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 146993301483394,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 114890105511124,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 841250514786386
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 569177657809152,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"MAZE_EXT\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 124842288206304,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 228173131139041
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 532400681114540,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 623906292529623,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 102505282374924,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 955754867043229
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 315370755871530,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 822677599031437,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 195328840217245,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 349873849129133
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 704146577515952,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 372325140414394,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 553838340405095,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 958690258228089
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 662161693426359,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 806864357935083,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 415805371558654
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 145706150280850,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 729123625641620,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 581907301249302
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 259713867265898,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"FOREST_SEA\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 874571918202866,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 263004589878122
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 469150717761596,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 193560987374810,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 665309529333511
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 289654443950889,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 749333278206246,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 962858890010643
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 221639772468016,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 416885689906884,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 594542157059206
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 913109791744269,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 420513238614227,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 925678495974683
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 282030550667965,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"SEA\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 162709385589876,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 274374260316351
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 244363584734327,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 992552070327079,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 787678319434435,
+															"parameters": {
+																"variable": "ITEM_ORB2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 735075007872103,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 295951127815342
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 251073914984510,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 221026874370503,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [],
+													"sid": 312580227076808,
+													"children": [
+														{
+															"eventType": "block",
+															"conditions": [
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 968815864948395,
+																	"parameters": {
+																		"variable": "ITEM_SLIDE"
+																	}
+																},
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 857037794245117,
+																	"parameters": {
+																		"variable": "ITEM_ORB2"
+																	}
+																}
+															],
+															"actions": [
+																{
+																	"id": "set-eventvar-value",
+																	"objectClass": "System",
+																	"sid": 676202148845260,
+																	"parameters": {
+																		"variable": "ignore",
+																		"value": "1"
+																	}
+																}
+															],
+															"sid": 467067827897078,
+															"isOrBlock": true
+														}
+													],
+													"isOrBlock": true
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 950130410145382,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 244112903931361,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 294787754118346
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 333929174547495,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 369774346698712,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 828255548953147
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 208474783448075,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"SEA_CITY\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 618858181934509,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 505204300620637
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 493762594141788,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 597007546475036,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 864116663688191,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 339825254379587
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 806527953542271,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 883249465520875,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 564381124405059
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 113405142637276,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 996865655584734,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 768535385440081
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 592743439839770,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"SEA_CITY_UPPER\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 653407646717000,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 893113738418782
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 700836380693977,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 232467356224714,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [],
+													"sid": 393483030188535,
+													"children": [
+														{
+															"eventType": "block",
+															"conditions": [
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 496129575639818,
+																	"parameters": {
+																		"variable": "ITEM_ORB2"
+																	}
+																}
+															],
+															"actions": [
+																{
+																	"id": "set-eventvar-value",
+																	"objectClass": "System",
+																	"sid": 178025972656842,
+																	"parameters": {
+																		"variable": "ignore",
+																		"value": "1"
+																	}
+																}
+															],
+															"sid": 319538945574606
+														}
+													]
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 353756463323826,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 345567889766174,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [],
+													"sid": 221939883555314,
+													"children": [
+														{
+															"eventType": "block",
+															"conditions": [
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 518534325611799,
+																	"parameters": {
+																		"variable": "ITEM_SLIDE"
+																	}
+																},
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 671214359832845,
+																	"parameters": {
+																		"variable": "ITEM_ORB3"
+																	}
+																},
+																{
+																	"id": "compare-boolean-eventvar",
+																	"objectClass": "System",
+																	"sid": 120965594176643,
+																	"parameters": {
+																		"variable": "ITEM_ORBS3"
+																	}
+																}
+															],
+															"actions": [
+																{
+																	"id": "set-eventvar-value",
+																	"objectClass": "System",
+																	"sid": 328476477670560,
+																	"parameters": {
+																		"variable": "ignore",
+																		"value": "1"
+																	}
+																}
+															],
+															"sid": 586972610561772
+														}
+													],
+													"isOrBlock": true
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 670038052929309,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 768438949930083,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 313670919041403
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 394196718339480,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 586398727801086,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 326407733501623
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 823200608234355,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BLUSHWOOD\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 925325061056764,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 153270970275762
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 529133580578372,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 678904269784817,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 838684655239869
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 319748707654209,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 648949642438385,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 970085113347835
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 685124298775303,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 447147611255746,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 402060828969441
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 670470863172827,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 447860664659209,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 404152057267430
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 275714852061030,
+															"parameters": {
+																"variable": "ITEM_WATERMOVEMENT"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 970281385385734,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 127067972043343
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 243753369349053,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 244414485738896,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 487752712366471
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 519471346290786,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 846963375940551,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 852892200065083
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 812259759868445,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"GLOAM_BOT\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 373544111891468,
+													"parameters": {
+														"instance-variable": "failedRegionReqs",
+														"value": "false"
+													}
+												}
+											],
+											"sid": 976085555709206
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 583008981048828,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"GLOAM_MID\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 993201928771398,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 823061450723360
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 846747386429489,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 766737636803033,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 900980636883297
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 393657676625950,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 195747751212463,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 698725780867870
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 580858526146895,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 428250922685478,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 236066675081147
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 316029380264816,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 403822729914251,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 344153598892022
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 724642522032242,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 451832109559872,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 552443849990482
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 162547655376686,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 427842284223581,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 298117572309338
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 874597121302185,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"ULSKAN\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 459893873751538,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 746999955615851
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 435033218675897,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 919001821940762,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 632275958135184
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 584692952047835,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 444860795705050,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 495417348581725
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 847808004728969,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 734023240493147,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 341916816310426
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 781372056535737,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 405418863081499,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 990157769246282
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 993305468417910,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 457673579555041,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 285513544403757
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 850953398069635,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"ANA_THEMA\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 658589660393510,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 510718254130313
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 952338439441860,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 152545130912398,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 162540325929885
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 624937384720445,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 473560451480410,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 391110420493987
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 915106668321276,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 352918424353980,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 452526431553504
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 909844563945311,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 404062301436927,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 780824651741037
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 858643038183956,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 422702539378685,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 648853830646592
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 275906480239497,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 396863229866526,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 679004720591927
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 192363250757619,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"GLOAM_UPPER\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 179794739030320,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 991235478685510
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 110992407904836,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 657216673989574,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 874138207401044
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 697744086308232,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 540079351527031,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 778899167126332
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 637505263937463,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 789959255721413,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 371248787954708
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 177813748168110,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 463297170682784,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 437679396087366
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 473133560537863,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 729043302194731,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 683161673752215
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 521825785099137,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 553375092590148,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 634996278174593
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 860606236176886,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"BREATH_LOWERL\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 838329908650764,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 388336629020066
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 672617897561465,
+															"parameters": {
+																"variable": "ITEM_JETPACK1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 877817106013149,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 143784707523913
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 319415877690151,
+															"parameters": {
+																"variable": "ITEM_DASH"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 392981130042512,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 384769197747977
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 938373536810000,
+															"parameters": {
+																"variable": "ITEM_ORB2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 530512513432066,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 231091189608328
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 259410398041100,
+															"parameters": {
+																"variable": "ITEM_DOUBLEJUMP"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 216007309441593,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 773817645086153
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 858286248223812,
+															"parameters": {
+																"variable": "ITEM_AIRSLIDE"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 612084801750982,
+															"parameters": {
+																"variable": "ITEM_SLIDE"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 576315698196265,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 466232670357921
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 416262017251926,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 533491254989039,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 607782008874941
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 929556099513042,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 892809008936345,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 869814102778194
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 397129479550092,
+													"parameters": {
+														"instance-variable": "region",
+														"comparison": 0,
+														"value": "\"ULVOSA\""
+													}
+												}
+											],
+											"actions": [],
+											"sid": 674092184646537,
+											"children": [
+												{
+													"eventType": "variable",
+													"name": "ignore",
+													"type": "number",
+													"initialValue": "0",
+													"comment": "",
+													"isStatic": false,
+													"isConstant": false,
+													"sid": 598522682426015
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 260490201234890,
+															"parameters": {
+																"variable": "ITEM_ORB2"
+															}
+														},
+														{
+															"id": "compare-boolean-eventvar",
+															"objectClass": "System",
+															"sid": 499445598944182,
+															"parameters": {
+																"variable": "ITEM_LINEBOMB"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 558874883896893,
+															"parameters": {
+																"variable": "ignore",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 779308178772252
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 523115668097566,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "1"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 648675850397780,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "false"
+															}
+														}
+													],
+													"sid": 678741716374572
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 677349361738477,
+															"parameters": {
+																"variable": "ignore",
+																"comparison": 0,
+																"value": "0"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-boolean-instvar",
+															"objectClass": "OBJ_CheckSquare",
+															"sid": 915442002298892,
+															"parameters": {
+																"instance-variable": "failedRegionReqs",
+																"value": "true"
+															}
+														}
+													],
+													"sid": 805734746718802
+												}
+											]
+										}
+									]
+								}
+							],
+							"sid": 931232751293891
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "for-each",
+									"objectClass": "System",
+									"sid": 920486325446441,
+									"parameters": {
+										"object": "OBJ_CheckSquare"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 838385088062589,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 726780294531552,
+											"parameters": {
+												"instance-variable": "failedReq1",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 473933713826513,
+											"parameters": {
+												"instance-variable": "failedReq2",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 360493676758503,
+											"parameters": {
+												"instance-variable": "failedReq3",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 987174646995306,
+											"parameters": {
+												"instance-variable": "failedReq4",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 589271836293380,
+											"parameters": {
+												"instance-variable": "failedReq5",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 324278986664138,
+											"parameters": {
+												"instance-variable": "failedReq6",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 647846377232914,
+											"parameters": {
+												"instance-variable": "failedReq7",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 683009396430158,
+											"parameters": {
+												"instance-variable": "failedReq8",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 301484336246199,
+											"parameters": {
+												"instance-variable": "failedReq9",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 184831301411343,
+											"parameters": {
+												"instance-variable": "failedReq10",
+												"value": "true"
+											}
+										}
+									],
+									"sid": 430275833974111
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 220538252494786,
+											"parameters": {
+												"instance-variable": "Reqs1",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 537013642299076,
+											"parameters": {
+												"instance-variable": "failedReq1",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 144511255745254
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 815741696680901,
+											"parameters": {
+												"instance-variable": "Reqs2",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 106183011058808,
+											"parameters": {
+												"instance-variable": "failedReq2",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 654820359209278
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 119549284377812,
+											"parameters": {
+												"instance-variable": "Reqs3",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 287282621512381,
+											"parameters": {
+												"instance-variable": "failedReq3",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 534500617029833
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 596058405421505,
+											"parameters": {
+												"instance-variable": "Reqs4",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 285101871438550,
+											"parameters": {
+												"instance-variable": "failedReq4",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 907225874230513
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 464718147011671,
+											"parameters": {
+												"instance-variable": "Reqs5",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 733582658422503,
+											"parameters": {
+												"instance-variable": "failedReq5",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 177883181389705
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 300500615967595,
+											"parameters": {
+												"instance-variable": "Reqs6",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 592510410802090,
+											"parameters": {
+												"instance-variable": "failedReq6",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 855895453055686
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 802183446784113,
+											"parameters": {
+												"instance-variable": "Reqs7",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 852589871792788,
+											"parameters": {
+												"instance-variable": "failedReq7",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 951358053802639
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 729380939150540,
+											"parameters": {
+												"instance-variable": "Reqs8",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 536277461426272,
+											"parameters": {
+												"instance-variable": "failedReq8",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 290348180107029
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 527791801192482,
+											"parameters": {
+												"instance-variable": "Reqs9",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 954988754040961,
+											"parameters": {
+												"instance-variable": "failedReq9",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 460743502209889
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 854776300394471,
+											"parameters": {
+												"instance-variable": "Reqs10",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 605812243744003,
+											"parameters": {
+												"instance-variable": "failedReq10",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 152432023740240
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 390155078790222,
+											"parameters": {
+												"instance-variable": "Reqs1",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										},
+										{
+											"id": "repeat",
+											"objectClass": "System",
+											"sid": 880908871086908,
+											"parameters": {
+												"count": "tokencount(OBJ_CheckSquare.Reqs1, \"&\") + 1"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 681789277874562,
+									"children": [
+										{
+											"eventType": "variable",
+											"name": "ignore",
+											"type": "number",
+											"initialValue": "0",
+											"comment": "",
+											"isStatic": false,
+											"isConstant": false,
+											"sid": 402893592250300
+										},
+										{
+											"eventType": "variable",
+											"name": "currentString",
+											"type": "string",
+											"initialValue": "",
+											"comment": "",
+											"isStatic": true,
+											"isConstant": false,
+											"sid": 278052581857654
+										},
+										{
+											"eventType": "block",
+											"conditions": [],
+											"actions": [
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 455569586741491,
+													"parameters": {
+														"variable": "currentString",
+														"value": "tokenat(OBJ_CheckSquare.Reqs1, loopindex, \"&\")"
+													}
+												}
+											],
+											"sid": 204959040884579
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 150667052562387,
+													"parameters": {
+														"variable": "ITEM_AIRSLIDE"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 353123268387103,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"AIRSLIDE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 605569794224789,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 660503362445965
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 504085280664775,
+													"parameters": {
+														"variable": "ITEM_AREABOMB"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 514885595320029,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"AREABOMB\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 925626380646036,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 901202651473711
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 171933646582013,
+													"parameters": {
+														"variable": "ITEM_BOMBEXTEND1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 208166142385917,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"BOMBEXTEND1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 702951033850933,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 716105207754750
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 462534158883882,
+													"parameters": {
+														"variable": "ITEM_BOMBEXTEND2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 869282927111532,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"BOMBEXTEND2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 767148531696578,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 212913341757841
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 469966051325593,
+													"parameters": {
+														"variable": "ITEM_BOMBEXTEND3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 159716260037667,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"BOMBEXTEND3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 694736138468872,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 588590224442261
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 758570566833481,
+													"parameters": {
+														"variable": "ITEM_DASH"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 750827419799959,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"DASH\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 240931437770768,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 963768876543033
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 609632821770952,
+													"parameters": {
+														"variable": "ITEM_DOUBLEJUMP"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 382350974678673,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"DOUBLEJUMP\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 175346662371764,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 582925972973519
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 456694131937372,
+													"parameters": {
+														"variable": "ITEM_FUEL"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 688521260752232,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"FUEL\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 598366730415485,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 912325313222379
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 680685122118568,
+													"parameters": {
+														"variable": "ITEM_HIJUMP"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 740847200208530,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"HIJUMP\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 728613008038998,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 389596963828904
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 938424633028019,
+													"parameters": {
+														"variable": "ITEM_JETPACK1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 359939793413601,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"JETPACK1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 758328028059940,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 871599594453376
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 494585310243903,
+													"parameters": {
+														"variable": "ITEM_JETPACK2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 911024319387269,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"JETPACK2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 163684543817828,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 735515751847711
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 736045706757529,
+													"parameters": {
+														"variable": "ITEM_JETPACK3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 666020951071308,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"JETPACK3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 378340137019397,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 687141740720860
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 149757292317255,
+													"parameters": {
+														"variable": "ITEM_KNIFE"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 541170232441344,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"KNIFE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 130403205232673,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 101992052149010
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 855832347689835,
+													"parameters": {
+														"variable": "ITEM_KNIFE"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 116512517274504,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"KNIFE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 586643917649616,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 698156528040675
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 159859883559197,
+													"parameters": {
+														"variable": "ITEM_LINEBOMB"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 525548620622044,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"LINEBOMB\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 125437354130876,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 997795221283700
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 744510342796772,
+													"parameters": {
+														"variable": "ITEM_SLIDE"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 415786847903273,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"SLIDE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 510831149983009,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 336724764475113
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 202721823944295,
+													"parameters": {
+														"variable": "ITEM_ORB1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 869641624466992,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORB1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 874519389968673,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 928289730764847
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 985640788453013,
+													"parameters": {
+														"variable": "ITEM_ORB2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 247198357931450,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORB2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 696236575909885,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 809676215587230
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 595803793484702,
+													"parameters": {
+														"variable": "ITEM_ORB3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 312359762724524,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORB3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 662971364156046,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 970332449002675
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 541151014283196,
+													"parameters": {
+														"variable": "ITEM_ORBC1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 989640631994202,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBC1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 901201028876352,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 248446599399721
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 485714390928240,
+													"parameters": {
+														"variable": "ITEM_ORBC2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 816954505872164,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBC2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 184071941259196,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 727213694145596
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 450414467209246,
+													"parameters": {
+														"variable": "ITEM_ORBC3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 620160154591893,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBC3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 396720109923672,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 561882021306226
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 626874006065079,
+													"parameters": {
+														"variable": "ITEM_ORBS1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 539661693294336,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBS1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 571825655421529,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 809151849677630
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 812073618938173,
+													"parameters": {
+														"variable": "ITEM_ORBS2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 336303360078123,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBS2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 394926413387603,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 864541803943666
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 139491626947271,
+													"parameters": {
+														"variable": "ITEM_ORBS3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 665122653328090,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"ORBS3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 903814473734790,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 464293635012447
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 677499012631996,
+													"parameters": {
+														"variable": "ITEM_SLIDE"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 145961529332805,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"SLIDE\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 874701059868241,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 204433011737400
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 873644222178801,
+													"parameters": {
+														"variable": "ITEM_SPEED1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 782314108722923,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"SPEED1\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 560572374103069,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 365048394811087
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 437516412719091,
+													"parameters": {
+														"variable": "ITEM_SPEED2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 896386985310882,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"SPEED2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 632257417898834,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 129739363578368
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 806159081469242,
+													"parameters": {
+														"variable": "ITEM_SPEED3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 846081507035099,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"SPEED3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 388386612496452,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 470773260611339
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 992958350964206,
+													"parameters": {
+														"variable": "ITEM_VORTEX"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 981521672186391,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"VORTEX\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 982956702680926,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 610484827266821
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 384375320069495,
+													"parameters": {
+														"variable": "ITEM_WALLJUMP1"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 378511693310047,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"WALLJUMP\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 784814254572396,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 613737052508474
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 314452610479359,
+													"parameters": {
+														"variable": "ITEM_WALLJUMP2"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 958208283257351,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"WALLJUMP2\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 407071604094907,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 102138218601919
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 845614065314109,
+													"parameters": {
+														"variable": "ITEM_WALLJUMP3"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 264789852371297,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"WALLJUMP3\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 363954611357634,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 792151499896389
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 338622048121080,
+													"parameters": {
+														"variable": "ITEM_WATERMOVEMENT"
+													},
+													"isInverted": true
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 744003242142521,
+													"parameters": {
+														"variable": "currentString",
+														"comparison": 0,
+														"value": "\"WATERMOVEMENT\""
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-boolean-instvar",
+													"objectClass": "OBJ_CheckSquare",
+													"sid": 765380422423867,
+													"parameters": {
+														"instance-variable": "failedReq1",
+														"value": "true"
+													}
+												}
+											],
+											"sid": 107591700414838
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 199803538590085,
+											"parameters": {
+												"instance-variable": "Reqs2",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										},
+										{
+											"id": "repeat",
+											"objectClass": "System",
+											"sid": 228293819379382,
+											"parameters": {
+												"count": "tokencount(OBJ_CheckSquare.Reqs2, \"&\")"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 296646568341843
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "OBJ_CheckSquare",
+											"sid": 284658943093968,
+											"parameters": {
+												"instance-variable": "Reqs3",
+												"comparison": 1,
+												"value": "\"\""
+											}
+										},
+										{
+											"id": "repeat",
+											"objectClass": "System",
+											"sid": 278455803584098,
+											"parameters": {
+												"count": "tokencount(OBJ_CheckSquare.Reqs3, \"&\")"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 761668622215398
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 484207767530049,
+									"parameters": {
+										"animation": "\"Available\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 719004183648332
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 880341777795583,
+									"parameters": {
+										"instance-variable": "failedRegionReqs"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 728701334903825,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 636372356751621
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 784339260347310,
+									"parameters": {
+										"instance-variable": "failedReq1"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 844146778188441,
+									"parameters": {
+										"instance-variable": "failedReq2"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 166548989242871,
+									"parameters": {
+										"instance-variable": "failedReq3"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 765967506968239,
+									"parameters": {
+										"instance-variable": "failedReq4"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 316187573247702,
+									"parameters": {
+										"instance-variable": "failedReq5"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 606007282225047,
+									"parameters": {
+										"instance-variable": "failedReq6"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 781106506002132,
+									"parameters": {
+										"instance-variable": "failedReq7"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 906833541864018,
+									"parameters": {
+										"instance-variable": "failedReq8"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 745766323459043,
+									"parameters": {
+										"instance-variable": "failedReq9"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 384123447174093,
+									"parameters": {
+										"instance-variable": "failedReq10"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 428081869177244,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 412146491926728
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 643383078451986,
+									"parameters": {
+										"instance-variable": "checked"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 501437871152681,
+									"parameters": {
+										"animation": "\"Done\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 615524939989305
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 365482944121466,
+									"parameters": {
+										"variable": "ITEM_AIRSLIDE"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 450125061139563,
+									"parameters": {
+										"instance-variable": "ITEM_AIRSLIDE"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 202364596870726,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 372533909593182,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 255803969604176,
+									"parameters": {
+										"variable": "ITEM_LINEBOMB"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 568430214622046,
+									"parameters": {
+										"instance-variable": "ITEM_LINEBOMB"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 101409520424935,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 236384072527834,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 448854486614485,
+									"parameters": {
+										"variable": "ITEM_AREABOMB"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 842218270651019,
+									"parameters": {
+										"instance-variable": "ITEM_AREABOMB"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 150396616772631,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 722763229614659,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 640769681660424,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND1"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 642894401186492,
+									"parameters": {
+										"instance-variable": "ITEM_BOMBEXTEND1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 236010383690997,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 307229399644466,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 939261602726601,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND2"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 862652532405279,
+									"parameters": {
+										"instance-variable": "ITEM_BOMBEXTEND2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 180811253115986,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 126638912036982,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 575250346368940,
+									"parameters": {
+										"variable": "ITEM_BOMBEXTEND3"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 583148336146236,
+									"parameters": {
+										"instance-variable": "ITEM_BOMBEXTEND3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 435167987794099,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 396902422526460,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 720228222160996,
+									"parameters": {
+										"variable": "ITEM_DASH"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 533869708713605,
+									"parameters": {
+										"instance-variable": "ITEM_DASH"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 940006573036099,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 513847847467413,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 708177473651130,
+									"parameters": {
+										"variable": "ITEM_DOUBLEJUMP"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 112912666389627,
+									"parameters": {
+										"instance-variable": "ITEM_DOUBLEJUMP"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 745831400244786,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 149032319482581,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 221521675775293,
+									"parameters": {
+										"variable": "ITEM_HIJUMP"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 918644087993834,
+									"parameters": {
+										"instance-variable": "ITEM_HIJUMP"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 987528337037523,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 865231906039977,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 440087372852386,
+									"parameters": {
+										"variable": "ITEM_JETPACK1"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 620561012208769,
+									"parameters": {
+										"instance-variable": "ITEM_JETPACK1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 119860582103903,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 553568404243836,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 293514691890846,
+									"parameters": {
+										"variable": "ITEM_JETPACK2"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 735359818147979,
+									"parameters": {
+										"instance-variable": "ITEM_JETPACK2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 561709405555292,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 450585626823848,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 961109536203788,
+									"parameters": {
+										"variable": "ITEM_JETPACK3"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 379685792976993,
+									"parameters": {
+										"instance-variable": "ITEM_JETPACK3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 524571586781280,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 547199281697144,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 537466634311741,
+									"parameters": {
+										"variable": "ITEM_KNIFE"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 891546348725539,
+									"parameters": {
+										"instance-variable": "ITEM_KNIFE"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 690093128015030,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 343436666399171,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 692387835390020,
+									"parameters": {
+										"variable": "ITEM_ORB1"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 169800359717614,
+									"parameters": {
+										"instance-variable": "ITEM_ORB1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 220960054691665,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 598791164395788,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 166596637466367,
+									"parameters": {
+										"variable": "ITEM_ORB2"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 233044547320454,
+									"parameters": {
+										"instance-variable": "ITEM_ORB2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 241263209989168,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 644258889998018,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 303338348039497,
+									"parameters": {
+										"variable": "ITEM_ORB3"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 150652806730225,
+									"parameters": {
+										"instance-variable": "ITEM_ORB3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 740688848931731,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 159659095374842,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 144861798860163,
+									"parameters": {
+										"variable": "ITEM_ORBC1"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 407158929661823,
+									"parameters": {
+										"instance-variable": "ITEM_ORBC1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 899457288638600,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 201186669452376,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 910842575219272,
+									"parameters": {
+										"variable": "ITEM_ORBC2"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 708487798490950,
+									"parameters": {
+										"instance-variable": "ITEM_ORBC2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 217617369480389,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 392070309269771,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 100189849076209,
+									"parameters": {
+										"variable": "ITEM_ORBC3"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 526454088140676,
+									"parameters": {
+										"instance-variable": "ITEM_ORBC3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 643597043013154,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 645169903125875,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 533653536796524,
+									"parameters": {
+										"variable": "ITEM_ORBS1"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 420285501902549,
+									"parameters": {
+										"instance-variable": "ITEM_ORBS1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 945079007849610,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 980541738395860,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 584106272028286,
+									"parameters": {
+										"variable": "ITEM_ORBS2"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 869221624194861,
+									"parameters": {
+										"instance-variable": "ITEM_ORBS2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 983042568894079,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 701652617246535,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 376821068418049,
+									"parameters": {
+										"variable": "ITEM_ORBS3"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 607395565063865,
+									"parameters": {
+										"instance-variable": "ITEM_ORBS3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 292851758127051,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 575569279874684,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 180529723555593,
+									"parameters": {
+										"variable": "ITEM_SLIDE"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 358464332966439,
+									"parameters": {
+										"instance-variable": "ITEM_SLIDE"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 178670713953848,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 388211739102097,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 139704313870248,
+									"parameters": {
+										"variable": "ITEM_WATERMOVEMENT"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 526383835950131,
+									"parameters": {
+										"instance-variable": "ITEM_WATERMOVEMENT"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "OBJ_CheckSquare",
+									"sid": 330631963440018,
+									"parameters": {
+										"animation": "\"Unavailable\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 263404426685540,
+							"disabled": true
+						}
+					],
+					"sid": 969654775342753
+				},
+				{
 					"eventType": "variable",
 					"name": "storedBoxX",
 					"type": "number",
@@ -233,7 +6727,7 @@
 							"sid": 905625962554821,
 							"disabled": true,
 							"parameters": {
-								"object-to-create": "Text_MarkedItems",
+								"object-to-create": "Text_MarkedLayout",
 								"layer": "\"UI\"",
 								"x": "OBJ_MarkedItemsStart.X + 32",
 								"y": "OBJ_MarkedItemsStart.Y",
@@ -243,7 +6737,7 @@
 						},
 						{
 							"id": "set-text",
-							"objectClass": "Text_MarkedItems",
+							"objectClass": "Text_MarkedLayout",
 							"sid": 740937451585497,
 							"disabled": true,
 							"parameters": {
@@ -326,7 +6820,7 @@
 									"objectClass": "System",
 									"sid": 243058601606585,
 									"parameters": {
-										"object-to-create": "Text_MarkedItems",
+										"object-to-create": "Text_MarkedLayout",
 										"layer": "\"UI\"",
 										"x": "OBJ_MarkedItemsStart.X + 28",
 										"y": "OBJ_MarkedItemsStart.Y - 10 + (itemsMarked * 28)",
@@ -336,7 +6830,7 @@
 								},
 								{
 									"id": "set-text",
-									"objectClass": "Text_MarkedItems",
+									"objectClass": "Text_MarkedLayout",
 									"sid": 831070368563514,
 									"parameters": {
 										"text": "LayoutName"
@@ -608,7 +7102,7 @@
 								},
 								{
 									"id": "destroy",
-									"objectClass": "Text_MarkedItems",
+									"objectClass": "Text_MarkedLayout",
 									"sid": 267185372755259
 								},
 								{
@@ -738,7 +7232,7 @@
 											"objectClass": "System",
 											"sid": 150040748999699,
 											"parameters": {
-												"object-to-create": "Text_MarkedItems",
+												"object-to-create": "Text_MarkedLayout",
 												"layer": "\"UI\"",
 												"x": "OBJ_MarkedItemsStart.X + 28",
 												"y": "OBJ_MarkedItemsStart.Y - 10 + (loopindex * 28)",
@@ -748,7 +7242,7 @@
 										},
 										{
 											"id": "set-text",
-											"objectClass": "Text_MarkedItems",
+											"objectClass": "Text_MarkedLayout",
 											"sid": 189817469970885,
 											"parameters": {
 												"text": "tokenat(ARR_MarkedItems.At(loopindex), 1, \",\")"
@@ -756,7 +7250,7 @@
 										},
 										{
 											"id": "set-instvar-value",
-											"objectClass": "Text_MarkedItems",
+											"objectClass": "Text_MarkedLayout",
 											"sid": 266182926390523,
 											"parameters": {
 												"instance-variable": "ID",
@@ -782,7 +7276,7 @@
 					"actions": [
 						{
 							"id": "destroy",
-							"objectClass": "Text_MarkedItems",
+							"objectClass": "Text_MarkedLayout",
 							"sid": 864361863364997
 						},
 						{

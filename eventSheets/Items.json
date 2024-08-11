@@ -1,0 +1,335 @@
+{
+	"name": "Items",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "ITEM_HIJUMP",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 351009068992880
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_JETPACK1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 919400321730990
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_JETPACK2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 753167612061895
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_JETPACK3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 535381409957441
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_DOUBLEJUMP",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 967493897834387
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_WALLJUMP1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 239120681100752
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_WALLJUMP2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 631864401359500
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_WALLJUMP3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 802740596417507
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_SLIDE",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 929742438293734
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_KNIFE",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 659897499194625
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_LINEBOMB",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 711691185145775
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_AREABOMB",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 963261307610392
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_WATERMOVEMENT",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 981346020451928
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_DASH",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 329498291794907
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_BOMBEXTEND1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 272943233838463
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_BOMBEXTEND2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 459905513322158
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_BOMBEXTEND3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 222246954955168
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBC1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 424311524456026
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBC2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 919198210170344
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBC3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 856233874901114
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBS1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 643442214172863
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBS2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 159071097812933
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORBS3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 201898936585220
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORB1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 361804984939783
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORB2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 848672390546135
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_ORB3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 548728776110557
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_AIRSLIDE",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": true,
+			"isConstant": false,
+			"sid": 616478470326878
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_VORTEX",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 409232975784523
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_FUEL",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 289664000674668
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_SPEED1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 994638247761063
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_SPEED2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 443700262558245
+		},
+		{
+			"eventType": "variable",
+			"name": "ITEM_SPEED3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 817224186684851
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Items",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 428606155295704
+		}
+	],
+	"sid": 612776490460684
+}

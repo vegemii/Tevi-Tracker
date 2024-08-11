@@ -61,6 +61,13 @@
 			"name": "Persist",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "grayscale",
+			"name": "Grayscale",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "j19bz60a7tf",
@@ -167,7 +174,8 @@
 			},
 			{
 				"items": [
-					"OBJ_CheckSquare"
+					"OBJ_CheckSquare",
+					"OBJ_ItemTracker"
 				],
 				"subfolders": [
 					{
@@ -182,12 +190,18 @@
 					{
 						"items": [
 							"OBJ_MarkedItemsStart",
-							"Text_MarkedItems",
+							"Text_MarkedLayout",
 							"ARR_MarkedItems",
-							"OBJ_MarkedItem"
+							"OBJ_MarkedItem",
+							"Text_ItemsMarked"
 						],
 						"subfolders": [],
 						"name": "Marked Items"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "Item Tracker"
 					}
 				],
 				"name": "UI"
@@ -248,7 +262,9 @@
 			"CheckMarking",
 			"ChangingMap",
 			"ItemMarking",
-			"Saving"
+			"Saving",
+			"Items",
+			"ItemTracking"
 		],
 		"subfolders": []
 	},
