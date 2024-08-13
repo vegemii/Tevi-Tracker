@@ -5518,7 +5518,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 880341777795583,
+									"sid": 642605238811858,
 									"parameters": {
 										"instance-variable": "failedRegionReqs"
 									}
@@ -5528,14 +5528,15 @@
 								{
 									"id": "set-animation",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 728701334903825,
+									"sid": 547771980092730,
 									"parameters": {
 										"animation": "\"Unavailable\"",
 										"from": "beginning"
 									}
 								}
 							],
-							"sid": 636372356751621
+							"sid": 938579596469290,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -5543,7 +5544,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 784339260347310,
+									"sid": 450795788920623,
 									"parameters": {
 										"instance-variable": "failedReq1"
 									}
@@ -5551,7 +5552,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 844146778188441,
+									"sid": 781705698635922,
 									"parameters": {
 										"instance-variable": "failedReq2"
 									}
@@ -5559,7 +5560,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 166548989242871,
+									"sid": 582678459655052,
 									"parameters": {
 										"instance-variable": "failedReq3"
 									}
@@ -5567,7 +5568,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 765967506968239,
+									"sid": 692873570824813,
 									"parameters": {
 										"instance-variable": "failedReq4"
 									}
@@ -5575,7 +5576,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 316187573247702,
+									"sid": 771695211088475,
 									"parameters": {
 										"instance-variable": "failedReq5"
 									}
@@ -5583,7 +5584,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 606007282225047,
+									"sid": 899113388835628,
 									"parameters": {
 										"instance-variable": "failedReq6"
 									}
@@ -5591,7 +5592,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 781106506002132,
+									"sid": 426622646279691,
 									"parameters": {
 										"instance-variable": "failedReq7"
 									}
@@ -5599,7 +5600,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 906833541864018,
+									"sid": 122449529548499,
 									"parameters": {
 										"instance-variable": "failedReq8"
 									}
@@ -5607,7 +5608,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 745766323459043,
+									"sid": 873039209685942,
 									"parameters": {
 										"instance-variable": "failedReq9"
 									}
@@ -5615,7 +5616,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 384123447174093,
+									"sid": 824039062798431,
 									"parameters": {
 										"instance-variable": "failedReq10"
 									}
@@ -5625,14 +5626,15 @@
 								{
 									"id": "set-animation",
 									"objectClass": "OBJ_CheckSquare",
-									"sid": 428081869177244,
+									"sid": 156032913238425,
 									"parameters": {
 										"animation": "\"Unavailable\"",
 										"from": "beginning"
 									}
 								}
 							],
-							"sid": 412146491926728
+							"sid": 354252196676914,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -5658,846 +5660,6 @@
 								}
 							],
 							"sid": 615524939989305
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 365482944121466,
-									"parameters": {
-										"variable": "ITEM_AIRSLIDE"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 450125061139563,
-									"parameters": {
-										"instance-variable": "ITEM_AIRSLIDE"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 202364596870726,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 372533909593182,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 255803969604176,
-									"parameters": {
-										"variable": "ITEM_LINEBOMB"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 568430214622046,
-									"parameters": {
-										"instance-variable": "ITEM_LINEBOMB"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 101409520424935,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 236384072527834,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 448854486614485,
-									"parameters": {
-										"variable": "ITEM_AREABOMB"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 842218270651019,
-									"parameters": {
-										"instance-variable": "ITEM_AREABOMB"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 150396616772631,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 722763229614659,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 640769681660424,
-									"parameters": {
-										"variable": "ITEM_BOMBEXTEND1"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 642894401186492,
-									"parameters": {
-										"instance-variable": "ITEM_BOMBEXTEND1"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 236010383690997,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 307229399644466,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 939261602726601,
-									"parameters": {
-										"variable": "ITEM_BOMBEXTEND2"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 862652532405279,
-									"parameters": {
-										"instance-variable": "ITEM_BOMBEXTEND2"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 180811253115986,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 126638912036982,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 575250346368940,
-									"parameters": {
-										"variable": "ITEM_BOMBEXTEND3"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 583148336146236,
-									"parameters": {
-										"instance-variable": "ITEM_BOMBEXTEND3"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 435167987794099,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 396902422526460,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 720228222160996,
-									"parameters": {
-										"variable": "ITEM_DASH"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 533869708713605,
-									"parameters": {
-										"instance-variable": "ITEM_DASH"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 940006573036099,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 513847847467413,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 708177473651130,
-									"parameters": {
-										"variable": "ITEM_DOUBLEJUMP"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 112912666389627,
-									"parameters": {
-										"instance-variable": "ITEM_DOUBLEJUMP"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 745831400244786,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 149032319482581,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 221521675775293,
-									"parameters": {
-										"variable": "ITEM_HIJUMP"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 918644087993834,
-									"parameters": {
-										"instance-variable": "ITEM_HIJUMP"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 987528337037523,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 865231906039977,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 440087372852386,
-									"parameters": {
-										"variable": "ITEM_JETPACK1"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 620561012208769,
-									"parameters": {
-										"instance-variable": "ITEM_JETPACK1"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 119860582103903,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 553568404243836,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 293514691890846,
-									"parameters": {
-										"variable": "ITEM_JETPACK2"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 735359818147979,
-									"parameters": {
-										"instance-variable": "ITEM_JETPACK2"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 561709405555292,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 450585626823848,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 961109536203788,
-									"parameters": {
-										"variable": "ITEM_JETPACK3"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 379685792976993,
-									"parameters": {
-										"instance-variable": "ITEM_JETPACK3"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 524571586781280,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 547199281697144,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 537466634311741,
-									"parameters": {
-										"variable": "ITEM_KNIFE"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 891546348725539,
-									"parameters": {
-										"instance-variable": "ITEM_KNIFE"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 690093128015030,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 343436666399171,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 692387835390020,
-									"parameters": {
-										"variable": "ITEM_ORB1"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 169800359717614,
-									"parameters": {
-										"instance-variable": "ITEM_ORB1"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 220960054691665,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 598791164395788,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 166596637466367,
-									"parameters": {
-										"variable": "ITEM_ORB2"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 233044547320454,
-									"parameters": {
-										"instance-variable": "ITEM_ORB2"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 241263209989168,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 644258889998018,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 303338348039497,
-									"parameters": {
-										"variable": "ITEM_ORB3"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 150652806730225,
-									"parameters": {
-										"instance-variable": "ITEM_ORB3"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 740688848931731,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 159659095374842,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 144861798860163,
-									"parameters": {
-										"variable": "ITEM_ORBC1"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 407158929661823,
-									"parameters": {
-										"instance-variable": "ITEM_ORBC1"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 899457288638600,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 201186669452376,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 910842575219272,
-									"parameters": {
-										"variable": "ITEM_ORBC2"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 708487798490950,
-									"parameters": {
-										"instance-variable": "ITEM_ORBC2"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 217617369480389,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 392070309269771,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 100189849076209,
-									"parameters": {
-										"variable": "ITEM_ORBC3"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 526454088140676,
-									"parameters": {
-										"instance-variable": "ITEM_ORBC3"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 643597043013154,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 645169903125875,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 533653536796524,
-									"parameters": {
-										"variable": "ITEM_ORBS1"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 420285501902549,
-									"parameters": {
-										"instance-variable": "ITEM_ORBS1"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 945079007849610,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 980541738395860,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 584106272028286,
-									"parameters": {
-										"variable": "ITEM_ORBS2"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 869221624194861,
-									"parameters": {
-										"instance-variable": "ITEM_ORBS2"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 983042568894079,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 701652617246535,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 376821068418049,
-									"parameters": {
-										"variable": "ITEM_ORBS3"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 607395565063865,
-									"parameters": {
-										"instance-variable": "ITEM_ORBS3"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 292851758127051,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 575569279874684,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 180529723555593,
-									"parameters": {
-										"variable": "ITEM_SLIDE"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 358464332966439,
-									"parameters": {
-										"instance-variable": "ITEM_SLIDE"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 178670713953848,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 388211739102097,
-							"disabled": true
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 139704313870248,
-									"parameters": {
-										"variable": "ITEM_WATERMOVEMENT"
-									},
-									"isInverted": true
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 526383835950131,
-									"parameters": {
-										"instance-variable": "ITEM_WATERMOVEMENT"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "OBJ_CheckSquare",
-									"sid": 330631963440018,
-									"parameters": {
-										"animation": "\"Unavailable\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 263404426685540,
-							"disabled": true
 						}
 					],
 					"sid": 969654775342753
