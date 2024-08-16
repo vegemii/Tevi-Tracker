@@ -29,6 +29,10 @@
 			"sid": 217302493321871,
 			"children": [
 				{
+					"eventType": "comment",
+					"text": "Remove marked items on the clicked square"
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{

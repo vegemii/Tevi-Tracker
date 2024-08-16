@@ -175,7 +175,8 @@
 			{
 				"items": [
 					"OBJ_CheckSquare",
-					"OBJ_ItemTracker"
+					"OBJ_ItemTracker",
+					"OBJ_ItemTracker2"
 				],
 				"subfolders": [
 					{
@@ -202,6 +203,29 @@
 						"items": [],
 						"subfolders": [],
 						"name": "Item Tracker"
+					},
+					{
+						"items": [
+							"OBJ_Knife",
+							"OBJ_Orbitars",
+							"OBJ_DeadlyReach",
+							"OBJ_CrossBomb",
+							"OBJ_ClusterBomb",
+							"OBJ_RunningBoots",
+							"OBJ_SlipstreamBoots",
+							"OBJ_WallJump",
+							"OBJ_Jetpack",
+							"OBJ_Blueprints",
+							"OBJ_BombFuel",
+							"OBJ_Combustible",
+							"OBJ_DecayMask",
+							"OBJ_EquilibriumRing",
+							"OBJ_ShiningBangle",
+							"OBJ_VortexGloves",
+							"OBJ_TrinketeersFortune"
+						],
+						"subfolders": [],
+						"name": "Upgrades"
 					}
 				],
 				"name": "UI"
@@ -252,7 +276,8 @@
 			"Snowveil",
 			"Keep",
 			"Dreamless Depths",
-			"HQ"
+			"HQ",
+			"Upgrades"
 		],
 		"subfolders": []
 	},

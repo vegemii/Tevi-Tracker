@@ -1,0 +1,286 @@
+{
+	"name": "OBJ_ClusterBomb",
+	"plugin-id": "Sprite",
+	"sid": 377480879274322,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "ITEM_HIJUMP",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 442819563455797
+		},
+		{
+			"name": "ITEM_JETPACK1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 404782314428508
+		},
+		{
+			"name": "ITEM_JETPACK2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 378496429590596
+		},
+		{
+			"name": "ITEM_JETPACK3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 560663177773747
+		},
+		{
+			"name": "ITEM_DOUBLEJUMP",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 515525049350954
+		},
+		{
+			"name": "ITEM_SLIDE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 450869823058281
+		},
+		{
+			"name": "ITEM_KNIFE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 251202683920426
+		},
+		{
+			"name": "ITEM_LINEBOMB",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 631000397677177
+		},
+		{
+			"name": "ITEM_AREABOMB",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 432817045411588
+		},
+		{
+			"name": "ITEM_WATERMOVEMENT",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 900388148708904
+		},
+		{
+			"name": "ITEM_DASH",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 849129872488642
+		},
+		{
+			"name": "ITEM_BOMBEXTEND1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 785670434804139
+		},
+		{
+			"name": "ITEM_BOMBEXTEND2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 497360843155488
+		},
+		{
+			"name": "ITEM_BOMBEXTEND3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 375043922700782
+		},
+		{
+			"name": "ITEM_ORBC1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 508761288074449
+		},
+		{
+			"name": "ITEM_ORBC2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 903519117559606
+		},
+		{
+			"name": "ITEM_ORBC3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 568861052783417
+		},
+		{
+			"name": "ITEM_ORBS1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 552748564830340
+		},
+		{
+			"name": "ITEM_ORBS2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 695438832493245
+		},
+		{
+			"name": "ITEM_ORBS3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 876584426694539
+		},
+		{
+			"name": "ITEM_ORB1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 862637668125426
+		},
+		{
+			"name": "ITEM_ORB2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 214253384028983
+		},
+		{
+			"name": "ITEM_ORB3",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 630592253744529
+		},
+		{
+			"name": "ITEM_AIRSLIDE",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 223391576630070
+		},
+		{
+			"name": "ITEM_FUEL",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 104339280071185
+		},
+		{
+			"name": "checkCount",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 359813491985289
+		},
+		{
+			"name": "checkMax",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 540247145137013
+		},
+		{
+			"name": "ITEM_VORTEX",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 508630593873270
+		},
+		{
+			"name": "ITEM_SPEED",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 822402591753611
+		},
+		{
+			"name": "ITEM_WALLJUMP",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 375593563363449
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 200455198354297
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "grayscale",
+			"name": "Grayscale"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 28,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1726504,
+						"collisionPoly": {
+							"points": [
+								0.5535714285714284,
+								0,
+								1,
+								0,
+								1,
+								0.2785714285714286,
+								1,
+								0.5517857142857139,
+								1,
+								0.9928571428571429,
+								0.7928571428571429,
+								0.9964285714285714,
+								0.5410714285714289,
+								0.9982142857142857,
+								0,
+								1,
+								0,
+								0.8125000000000001,
+								0,
+								0,
+								0.2928571428571427,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 846522119110549,
+				"name": "Available",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

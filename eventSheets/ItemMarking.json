@@ -5806,12 +5806,12 @@
 								{
 									"id": "create-object",
 									"objectClass": "System",
-									"sid": 375707237074917,
+									"sid": 118340002946592,
 									"parameters": {
 										"object-to-create": "OBJ_ItemPicker",
 										"layer": "\"UI\"",
-										"x": "OBJ_ItemPickerStart.X + ((loopindex % ITEMHORILIMIT) * ITEMSIZE)",
-										"y": "OBJ_ItemPickerStart.Y + ((floor(loopindex / ITEMHORILIMIT)) * ITEMSIZE)",
+										"x": "OBJ_ItemPickerStart.X + Functions.ValueWrapping(1, loopindex, ITEMHORILIMIT, ITEMSIZE)",
+										"y": "OBJ_ItemPickerStart.Y + Functions.ValueWrapping(0, loopindex, ITEMHORILIMIT, ITEMSIZE)",
 										"create-hierarchy": false,
 										"template-name": "\"\""
 									}
@@ -5826,6 +5826,107 @@
 								}
 							],
 							"sid": 161700751253104
+						}
+					]
+				},
+				{
+					"functionName": "ValueWrapping",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "number",
+					"functionCopyPicked": false,
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "modulo",
+							"type": "boolean",
+							"initialValue": "false",
+							"comment": "",
+							"sid": 156195976904659
+						},
+						{
+							"name": "num",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 396428087253470
+						},
+						{
+							"name": "limit",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 113595990193050
+						},
+						{
+							"name": "mult",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 293106221003290
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [],
+					"sid": 583847773249054,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 189589947879671,
+									"parameters": {
+										"variable": "modulo"
+									}
+								}
+							],
+							"actions": [
+								{
+									"type": "comment",
+									"text": "Roll over the number after it reaches the limit"
+								},
+								{
+									"id": "set-function-return-value",
+									"objectClass": "Functions",
+									"sid": 422609523937836,
+									"parameters": {
+										"value": "(num % limit) * mult"
+									}
+								}
+							],
+							"sid": 975290379476164
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 324171137983765,
+									"parameters": {
+										"variable": "modulo"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"type": "comment",
+									"text": "Increase the number only after reaching the limit"
+								},
+								{
+									"id": "set-function-return-value",
+									"objectClass": "Functions",
+									"sid": 569924553532289,
+									"parameters": {
+										"value": "floor(num / limit) * mult"
+									}
+								}
+							],
+							"sid": 178922945183805
 						}
 					]
 				},
@@ -5882,31 +5983,7 @@
 					],
 					"eventType": "function-block",
 					"conditions": [],
-					"actions": [
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 905625962554821,
-							"disabled": true,
-							"parameters": {
-								"object-to-create": "Text_MarkedLayout",
-								"layer": "\"UI\"",
-								"x": "OBJ_MarkedItemsStart.X + 32",
-								"y": "OBJ_MarkedItemsStart.Y",
-								"create-hierarchy": false,
-								"template-name": "\"\""
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "Text_MarkedLayout",
-							"sid": 740937451585497,
-							"disabled": true,
-							"parameters": {
-								"text": "LayoutName"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 396794169750809,
 					"children": [
 						{
@@ -6093,6 +6170,10 @@
 							"sid": 856490552399824,
 							"children": [
 								{
+									"eventType": "comment",
+									"text": "If the box being marked is the same as one that's already marked, just edit the existing marker instead"
+								},
+								{
 									"eventType": "block",
 									"conditions": [
 										{
@@ -6197,6 +6278,10 @@
 											"parameters": {
 												"frame-number": "OBJ_ItemPicker.AnimationFrame"
 											}
+										},
+										{
+											"type": "comment",
+											"text": "Add the marker UID to the array along with its animation frame"
 										},
 										{
 											"callFunction": "AddItemToMarked",

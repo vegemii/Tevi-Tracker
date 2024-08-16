@@ -1,0 +1,4258 @@
+{
+	"name": "Upgrades",
+	"layers": [
+		{
+			"name": "BG",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [],
+			"sid": 606418804962942,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 120,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 904,
+						"y": 986,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 121,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": -74,
+						"y": 391,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_Knife",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 181,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 140,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 470,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 471,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 474,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 475,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 477,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 478,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 480,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 481,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 569,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 570,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 572,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 308,
+						"y": 420,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 573,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 364,
+						"y": 420,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 575,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 576,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 578,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 579,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 581,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 582,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 584,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 585,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 587,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 588,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_Orbitars",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 469,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 196,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_DeadlyReach",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 472,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 252,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CrossBomb",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 590,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 308,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_ClusterBomb",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 591,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 364,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_RunningBoots",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 592,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 420,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_SlipstreamBoots",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 593,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 140,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_WallJump",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 594,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 196,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_Jetpack",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 595,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 252,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_Blueprints",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 596,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 308,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_BombFuel",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 597,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 364,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 476,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 420,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 479,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 616,
+						"y": 420,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 568,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 812,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 571,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 868,
+						"y": 140,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 574,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 812,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 577,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 868,
+						"y": 196,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 580,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 812,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 583,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 868,
+						"y": 252,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 586,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 812,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 589,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 868,
+						"y": 308,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 598,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 812,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_CheckSquare",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 599,
+					"instanceVariables": {
+						"Reqs1": "",
+						"Reqs2": "",
+						"Reqs3": "",
+						"Reqs4": "",
+						"Reqs5": "",
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": false,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"failedReq1": false,
+						"failedReq2": false,
+						"failedReq3": false,
+						"failedReq4": false,
+						"failedReq5": false,
+						"region": "",
+						"failedRegionReqs": false,
+						"checked": false,
+						"Reqs6": "",
+						"Reqs7": "",
+						"Reqs8": "",
+						"Reqs9": "",
+						"Reqs10": "",
+						"failedReq6": false,
+						"failedReq7": false,
+						"failedReq8": false,
+						"failedReq9": false,
+						"failedReq10": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 868,
+						"y": 364,
+						"width": 26.960730187135997,
+						"height": 26.960730187135997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_Combustible",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 473,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 504,
+						"y": 420,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_DecayMask",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 610,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 756,
+						"y": 140,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_EquilibriumRing",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 611,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 756,
+						"y": 196,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_ShiningBangle",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 612,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 756,
+						"y": 252,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_VortexGloves",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 613,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 756,
+						"y": 308,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OBJ_TrinketeersFortune",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Available",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 614,
+					"instanceVariables": {
+						"ITEM_HIJUMP": false,
+						"ITEM_JETPACK1": false,
+						"ITEM_JETPACK2": false,
+						"ITEM_JETPACK3": false,
+						"ITEM_DOUBLEJUMP": false,
+						"ITEM_SLIDE": false,
+						"ITEM_KNIFE": true,
+						"ITEM_LINEBOMB": false,
+						"ITEM_AREABOMB": false,
+						"ITEM_WATERMOVEMENT": false,
+						"ITEM_DASH": false,
+						"ITEM_BOMBEXTEND1": false,
+						"ITEM_BOMBEXTEND2": false,
+						"ITEM_BOMBEXTEND3": false,
+						"ITEM_ORBC1": false,
+						"ITEM_ORBC2": false,
+						"ITEM_ORBC3": false,
+						"ITEM_ORBS1": false,
+						"ITEM_ORBS2": false,
+						"ITEM_ORBS3": false,
+						"ITEM_ORB1": false,
+						"ITEM_ORB2": false,
+						"ITEM_ORB3": false,
+						"ITEM_AIRSLIDE": false,
+						"ITEM_FUEL": false,
+						"checkCount": 0,
+						"checkMax": 1,
+						"ITEM_VORTEX": false,
+						"ITEM_SPEED": false,
+						"ITEM_WALLJUMP": false
+					},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"Grayscale": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 756,
+						"y": 364,
+						"width": 56,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 815768669963007,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "UI",
+			"overriden": 1,
+			"subLayers": [],
+			"instances": [],
+			"sid": 296212647415070,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 206553483678588,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 2560,
+	"height": 1440,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Global"
+}
