@@ -1013,8 +1013,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 14,
+						"x": 118,
+						"y": 29,
 						"width": 94,
 						"height": 17,
 						"originX": 0,
@@ -1044,8 +1044,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 125,
-						"y": 11,
+						"x": 136,
+						"y": 53,
 						"width": 58,
 						"height": 23,
 						"originX": 0,
@@ -1075,8 +1075,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 200,
-						"y": 11,
+						"x": 136,
+						"y": 113,
 						"width": 63,
 						"height": 22,
 						"originX": 0,
@@ -1106,8 +1106,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 277,
-						"y": 11,
+						"x": 135,
+						"y": 84,
 						"width": 62,
 						"height": 23,
 						"originX": 0,
@@ -1137,8 +1137,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 346,
-						"y": 11,
+						"x": 139,
+						"y": 143,
 						"width": 57,
 						"height": 23,
 						"originX": 0,
@@ -1168,8 +1168,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 420,
-						"y": 12,
+						"x": 138,
+						"y": 172,
 						"width": 55,
 						"height": 20,
 						"originX": 0,
@@ -1199,8 +1199,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 492,
-						"y": 14,
+						"x": 228,
+						"y": 30,
 						"width": 57,
 						"height": 21,
 						"originX": 0,
@@ -1230,8 +1230,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 567,
-						"y": 15,
+						"x": 322,
+						"y": 29,
 						"width": 55,
 						"height": 22,
 						"originX": 0,
@@ -1261,8 +1261,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 638,
-						"y": 16,
+						"x": 321,
+						"y": 56,
 						"width": 55,
 						"height": 22,
 						"originX": 0,
@@ -1292,8 +1292,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 708,
-						"y": 19,
+						"x": 307,
+						"y": 84,
 						"width": 88,
 						"height": 21,
 						"originX": 0,
@@ -1323,8 +1323,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 806,
-						"y": 20,
+						"x": 305,
+						"y": 111,
 						"width": 96,
 						"height": 21,
 						"originX": 0,
@@ -1354,8 +1354,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 905,
-						"y": 19,
+						"x": 232,
+						"y": 138,
 						"width": 55,
 						"height": 22,
 						"originX": 0,
@@ -1385,8 +1385,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 970,
-						"y": 19,
+						"x": 670,
+						"y": 110,
 						"width": 55,
 						"height": 22,
 						"originX": 0,
@@ -1416,8 +1416,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1036,
-						"y": 18,
+						"x": 647,
+						"y": 52,
 						"width": 102,
 						"height": 22,
 						"originX": 0,
@@ -1447,8 +1447,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1148,
-						"y": 19,
+						"x": 645,
+						"y": 24,
 						"width": 102,
 						"height": 22,
 						"originX": 0,
@@ -1478,8 +1478,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 17,
-						"y": 41,
+						"x": 663,
+						"y": 136,
 						"width": 64,
 						"height": 18,
 						"originX": 0,
@@ -1509,8 +1509,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 96,
-						"y": 41,
+						"x": 222,
+						"y": 57,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1540,8 +1540,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 180,
-						"y": 41,
+						"x": 404,
+						"y": 29,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1571,8 +1571,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 265,
-						"y": 41,
+						"x": 407,
+						"y": 81,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1602,8 +1602,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 344,
-						"y": 43,
+						"x": 406,
+						"y": 55,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1633,8 +1633,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 421,
-						"y": 43,
+						"x": 652,
+						"y": 81,
 						"width": 91,
 						"height": 22,
 						"originX": 0,
@@ -1664,8 +1664,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 523,
-						"y": 44,
+						"x": 224,
+						"y": 84,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1695,8 +1695,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 604,
-						"y": 44,
+						"x": 225,
+						"y": 111,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1726,8 +1726,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 685,
-						"y": 47,
+						"x": 521,
+						"y": 67,
 						"width": 70,
 						"height": 22,
 						"originX": 0,
@@ -1757,8 +1757,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 761,
-						"y": 48,
+						"x": 496,
+						"y": 38,
 						"width": 118,
 						"height": 22,
 						"originX": 0,
@@ -1789,7 +1789,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 891,
-						"y": 50,
+						"y": 37,
 						"width": 118,
 						"height": 22,
 						"originX": 0,
@@ -1819,8 +1819,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1019,
-						"y": 52,
+						"x": 917,
+						"y": 67,
 						"width": 69,
 						"height": 22,
 						"originX": 0,
@@ -1850,8 +1850,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1091,
-						"y": 52,
+						"x": 784,
+						"y": 85,
 						"width": 83,
 						"height": 22,
 						"originX": 0,
@@ -1881,8 +1881,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1180,
-						"y": 51,
+						"x": 786,
+						"y": 35,
 						"width": 69,
 						"height": 22,
 						"originX": 0,
@@ -1912,8 +1912,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 17,
-						"y": 68,
+						"x": 765,
+						"y": 59,
 						"width": 114,
 						"height": 22,
 						"originX": 0,
@@ -1943,8 +1943,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 141,
-						"y": 70,
+						"x": 1036,
+						"y": 38,
 						"width": 76,
 						"height": 22,
 						"originX": 0,
@@ -1974,8 +1974,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 225,
-						"y": 71,
+						"x": 1043,
+						"y": 66,
 						"width": 57,
 						"height": 22,
 						"originX": 0,
@@ -2005,8 +2005,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 291,
-						"y": 72,
+						"x": 1011,
+						"y": 92,
 						"width": 131,
 						"height": 22,
 						"originX": 0,
@@ -2036,8 +2036,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 429,
-						"y": 73,
+						"x": 1054,
+						"y": 119,
 						"width": 35,
 						"height": 22,
 						"originX": 0,
@@ -3376,8 +3376,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 476,
-						"y": 75,
+						"x": 1164,
+						"y": 49,
 						"width": 83,
 						"height": 22,
 						"originX": 0,
@@ -3388,6 +3388,411 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Snow",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 600,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1052,
+						"y": 12,
+						"width": 44,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Upper",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 601,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 325,
+						"y": 5,
+						"width": 64.91296232112109,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Thanatara",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 602,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 130,
+						"y": 4,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Under",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 603,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 235,
+						"y": 5,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Forest",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 604,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 664,
+						"y": 3,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Ana Thema",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 605,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 909,
+						"y": 7,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Ocean",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 606,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 800,
+						"y": 5,
+						"width": 44,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Decay",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 607,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 532,
+						"y": 13,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Valhalla",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 608,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 411,
+						"y": 8,
+						"width": 83.89690301161264,
+						"height": 23,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.269029238696735,
+						"zElevation": 0
 					}
 				}
 			],

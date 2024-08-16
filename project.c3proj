@@ -176,7 +176,8 @@
 				"items": [
 					"OBJ_CheckSquare",
 					"OBJ_ItemTracker",
-					"OBJ_ItemTracker2"
+					"OBJ_ItemTracker2",
+					"Text"
 				],
 				"subfolders": [
 					{
